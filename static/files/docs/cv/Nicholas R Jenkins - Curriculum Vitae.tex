@@ -1,0 +1,467 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=true,urlcolor=Blue,bookmarks=true]{hyperref}
+\usepackage{titlesec}
+\usepackage{longtable}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{xifthen}
+\usepackage{titling}
+\usepackage{bookmark}
+\usepackage{etaremune}
+
+
+% Bibliography Setup %
+%\usepackage{natbib}
+%\bibliographystyle{apsr}
+\usepackage[natbib, isbn=false, url=true, doi=false, backend=biber, style=chicago-authordate]{biblatex} 
+%\usepackage{bibentry}
+\bibliography{/Users/nick/Documents/Research/References/BibTeX/biblatex.bib} 
+
+
+%Defining the entry command:
+\newcommand{\entry}[4]{
+\ifthenelse{\isempty{#3}}
+{\slimentry{#1}{#2}}{
+
+\begin{minipage}[t]{.135\textwidth}
+\hfill \textsc{#1}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.82\textwidth}
+{\bf#2}\\\textit{#3}. \footnotesize{#4}
+\end{minipage}\\
+\vspace{.25cm}
+}}
+
+\newcommand{\slimentry}[2]{
+
+\begin{minipage}[t]{.13\textwidth}
+\hfill \textsc{#1}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.82\textwidth}
+#2
+\end{minipage}\\
+}
+
+
+%Footnote Symbol%
+\renewcommand{\thefootnote}{$\star$} 
+
+
+% Entry for Longer Left Side
+\newcommand{\longentry}[4]{
+
+\begin{minipage}[t]{.20\textwidth}
+\hfill \textsc{#1}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.77\textwidth}
+{#2}
+\end{minipage}\\
+\vspace{.25cm}
+}
+
+
+% Entry for Publications
+\newcommand{\pub}[3]{
+
+\begin{minipage}[t]{.95\textwidth}
+{#1}. \footnotesize{#2} \medskip
+\end{minipage}\\
+\begin{minipage}[t]{\linewidth}
+\hspace{0.5cm} \textit{\small{#3}}
+\end{minipage}
+}
+
+
+
+% Macros for Schools
+\newcommand{\ucr}{University of California, Riverside}
+\newcommand{\csulb}{California State University, Long Beach}
+\newcommand{\csuf}{California State University, Fullerton}
+
+%Macros for people's names
+\newcommand{\tgb}{\href{http://coglanglab.com}{Tom Bever}}
+
+%Link images
+\newcommand{\pdf}{\includegraphics[height=.55\baselineskip]{PDF.jpg}}
+%\newcommand{\yt}{\includegraphics[height=.75\baselineskip]{yt.png}}
+\newcommand{\gh}{\includegraphics[height=.55\baselineskip]{github.png}}
+
+%Section spacing and format:
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{7pt}
+\titleformat{\subsection}{\large\sc\centering}{}{0em}{\underline}%[\rule{3cm}{.2pt}]
+\titlespacing{\subsection}{0pt}{7pt}{7pt}
+
+\setlength{\parindent}{0in}
+\setlength{\parindent}{0in}
+
+% Header and Footer Format
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\chead{\footnotesize \textsc{Nicholas R. Jenkins -- Curriculum Vitae}}
+\rfoot{\footnotesize \textsc{Page \thepage}}
+\lfoot{\footnotesize \today}
+
+% Header for the First Page
+\fancypagestyle{firststyle}
+{
+	\fancyhf{}
+	\fancyfoot[l]{\footnotesize \today}
+	\fancyfoot[r]{\footnotesize \textsc{Page \thepage}}
+}
+
+
+\begin{document}
+
+\thispagestyle{firststyle}
+
+\begin{center}
+\par{{\Huge \textsc{Nicholas R. Jenkins}}\par}
+\end{center}
+
+
+\section{Basic Info}
+
+\vspace{.25cm}
+
+\begin{minipage}[t]{.5\linewidth}
+
+\begin{tabular}{rp{.75\linewidth}}
+    \textsc{Website:} &\href{https://nrjenkins.github.io}{nrjenkins.github.io} \\
+    \textsc{Email:} & \href{mailto:nicholas.jenkins@email.ucr.edu}{nicholas.jenkins@email.ucr.edu}
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{.5\linewidth}
+\begin{tabular}{rl}
+	\textsc{Google Scholar:} & \href{https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4YjeAdLDKT6kbtDT4HzOpmrZ0YDVa6iwfZVHoEtijVG8isg02qW3PBEUcGznxez3amN5uSzcXmNUHD1e4P_BWi3tu55w&user=FPXYTX0AAAAJ}{Nicholas R. Jenkins} \\
+	\textsc{Github:} & \href{http://github.com/nrjenkins}{nrjenkins}
+\end{tabular}
+\end{minipage}
+
+\vspace{.35cm}
+
+% Research Interests %
+
+
+\vspace{.25cm}
+
+
+% Education %
+\section{Education}
+
+\medskip
+
+\entry{\emph{In Progress}}
+			{Doctor of Philosophy, Political Science}
+			{\ucr}
+			{Research interests in interest groups and lobbying, Congress, and representation.}
+			
+\entry{2017}
+			{Master of Arts, Economics}
+			{\csulb}
+			{Specialized in international finance, economic development, and labor economics.}
+			
+\entry{2015}
+			{Bachelor of Arts, Business Administration}
+			{\csuf}
+			{Major in Accounting; minor in Economics.}
+
+\vspace{.25cm}
+
+
+% Awards %
+\section{Awards, Fellowships, and Grants}
+
+\medskip
+
+\entry{2018}
+			{Hayek Fund ICPSR Summer Program Fellowship - \$3,500}
+			{Institute for Humane Studies}
+			{Awarded \$3,500 to attend the 4-week ICPSR Summer Program at the University of Michigan, Ann Arbor}
+
+\entry{2017}
+			{Chancellor's Distinguished Fellowship}
+			{\ucr}
+			{}
+
+\entry{2017}
+			{College of Liberal Arts Distinguished Graduate in Economics}
+			{\csulb}
+			{}
+
+\entry{2017}
+			{1st Place, 29th Annual Student Research Competition - \$100}
+			{\csulb}
+			{}
+
+\entry{2016}
+			{Graduate Research Fellowship - \$9,000}
+			{\csulb}
+			{The Graduate Research Fellowship is awarded by CSULB faculty to students who show potential for success in scholarly and creative activity and an interest in advanced study. Graduate candidates must be nominated by a faculty member and there will only be one fellowship recipient per college.}
+
+\entry{2016}
+			{Simonson Economics Department Scholarship - \$500}
+			{\csulb}
+			{}
+
+\entry{2015}
+			{Formuzis-Pickersgill-Hunt Student Paper Award - \$500}
+			{\csuf}
+			{This scholarship was established by the Formuzis, Pickersgill \& Hunt, Inc. Economic Consultants. Submitted papers, written per guidelines, will be judged by the Economics Department Student Affairs Committee for the undergraduate awards.}
+			{}
+
+\vspace{.25cm}
+
+% Research %
+\section{Research}
+
+\medskip
+
+\textbf{\textsc{Peer-Reviewed Publications}}
+
+\begin{etaremune}
+	\item \pub{\fullcite{meyer_interest_2019}}{}{}
+\end{etaremune}
+
+%\nocite{meyer_what_nodate}
+%\nocite{jenkins_determinants_2015}
+%\printbibliography[heading=none]
+
+\vspace{.25cm}
+
+
+% Conference Presentations %
+\section{Conference Presentations and Workshops}
+
+\medskip
+
+\entry{2020}
+			{Debtors and Democracy: The Effect of Student Loans on Political Participation (with Alex Ross)}
+			{Presented at the Western Political Science Association Annual Meeting, Los Angeles, CA}
+			{}
+
+\entry{2020}
+			{Disruption in State Legislatures: Term Limits and Representational Linkages}
+			{Presented at the Western Political Science Association Annual Meeting, Los Angeles, CA}
+			{}
+			
+\entry{2017}
+			{M.A. in Economics Math Review}
+			{\csulb}
+			{I created, and hosted, the math review session for the incoming cohort of graduate students in economics at \csulb. The PDF will be available soon!}
+			
+\entry{2016}
+			{Instrumental Variable Regression \href{https://github.com/nrjenkins/workshops/blob/master/iv_regression/IV_presentation.pdf}{\pdf} \href{https://github.com/nrjenkins/workshops/tree/master/iv_regression}{\gh}}
+			{Statistics Workshop, University of California, Irvine}
+			
+\entry{2016}
+			{Intermediate Micro/Macroeconomics Math Review Session}
+			{\csulb}
+
+\vspace{.25cm}
+
+
+% Teaching Experience %
+\section{Teaching Experience}
+
+\medskip
+
+\textbf{\textsc{Teaching Associate}}
+
+\medskip
+
+\entry{Spring 2017}
+			{Forecasting Lab \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/Econ420_LabSyllabus_Spring_17.pdf}{\pdf}}
+			{\csulb}
+			{Taught undergraduates applied forecasting methods in EViews.\\ \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ420_Teaching_Evaluations_Spring2017.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.71/6.00}}
+
+\entry{Spring 2017}
+			{Economic Statistics Lab \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/Econ380_LabSyllabus_Spring17.pdf}{\pdf}}
+			{\csulb}
+			{Taught undergraduates applied statistics in Excel.\\ \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Spring2017.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.66/6.00}}
+
+\entry{Fall 2016}
+			{Introduction to Econometrics Lab \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/Econ485_LabSyllabus_Fall16.pdf}{\pdf}}
+			{\csulb}
+			{Taught undergraduates applied statistics in STATA.\\ \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ485_Teaching_Evaluations_Fall2016.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.61/6.00}}
+
+\entry{Fall 2016}
+			{Economic Statistics Lab \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/Econ380_LabSyllabus_Fall16.pdf}{\pdf}}
+			{\csulb}
+			{Taught undergraduates applied statistics in Excel.\\ \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Fall2016.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.34/6.00}}
+
+\entry{Spring 2016}
+			{Economic Statistics Lab \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/Econ380_LabSyllabus_Spring16.pdf}{\pdf}}
+			{\csulb}
+			{Taught undergraduates applied statistics in Excel.\\ \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Spring2016.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.88/6.00}}
+
+\entry{Fall 2015}
+			{Economic Statistics Lab \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/Econ380_LabSyllabus_Fall15.pdf}{\pdf}}
+			{\csulb}
+			{Taught undergraduates applied statistics in Excel.\\ \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Fall2015.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.89/6.00}}
+
+\medskip
+
+\textbf{\textsc{Teaching Assistant}\footnote{Scores calculated using the following item: \textit{Overall, is an effective teacher.}}}
+
+\medskip
+
+\entry{Winter 2020}
+			{Policy Evaluation}
+			{\ucr}
+			{This class focuses on statistical methods for policy evaluation, that is, the methods one can use to understand the impact of an intervention such as a policy or government program.}
+
+\entry{Fall 2019}
+			{Latin American Politics \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/POSC162_SectionSyllabus_Fall19.pdf}{\pdf}}
+			{\ucr}
+			{This course is designed as an introduction to Latin American politics.\\
+			Section 21: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC142_Fall19_Section21_Scores.pdf}{Median Rating: 6.00/7.00, Mean Rating: 5.46/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC142_Fall19_Section21_Comments.pdf}{Student Feedback}.
+			
+			Section 22: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC142_Fall19_Section22_Scores.pdf}{Median Rating: 6.00/7.00, Mean Rating: 6.18/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC142_Fall19_Section22_Comments.pdf}{Student Feedback}.
+			
+			Section 23: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC142_Fall19_Section23_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.13/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC142_Fall19_Section23_Comments.pdf}{Student Feedback}.\\
+			(Mean Department Rating: 6.20, Mean Campus Rating: 6.22)}
+
+\entry{Spring 2019}
+			{U.S. -- Latin American Relations \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/POSC161_SectionSyllabus_Spring19.pdf}{\pdf}}
+			{\ucr}
+			{This course studies the relations between the United States and Latin America.\\
+			Section 21: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC188_Spring19_Section21_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.90/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC188_Spring19_Section21_Comments.pdf}{Student Feedback}.
+			
+			Section 22: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC188_Spring19_Section22_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 7.00/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC188_Spring19_Section22_Comments.pdf}{Student Feedback}.
+			
+			Section 23: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC188_Spring19_Section23_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.67/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC188_Spring19_Section23_Comments.pdf}{Student Feedback}.\\
+			(Mean Department Rating: 6.83, Mean Campus Rating: 6.27)}
+
+\entry{Winter 2019}
+			{American Politics \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/POSC010_SectionSyllabus_Winter19.pdf}{\pdf}}
+			{\ucr}
+			{Introductory course in American politics.\\
+			Section 24: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section24_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.75/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section24_Comments.pdf}{Student Feedback}.
+			
+			Section 25: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section25_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.80/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section25_Comments.pdf}{Student Feedback}.
+			
+			Section 26: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section26_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.54/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section26_Comments.pdf}{Student Feedback}.\\
+			(Mean Department Rating: 6.42, Mean Campus Rating: 6.21)}
+
+\entry{Fall 2018}
+			{American Politics \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/syllabi/POSC010_SectionSyllabus_Fall18.pdf}{\pdf}}
+			{\ucr}
+			{Introductory course in American politics.\\
+			Section 22: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section22_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.78/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section22_Comments.pdf}{Student Feedback}.
+			
+			Section 25: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section25_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.78/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section25_Comments.pdf}{Student Feedback}.
+			
+			Section 31: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section31_Scores.pdf}{Median Rating: 6.00/7.00, Mean Rating: 5.80/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section31_Comments.pdf}{Student Feedback}.\\
+			(Mean Department Rating: 6.48, Mean Campus Rating: 6.19)}
+
+\entry{Spring 2017}
+			{Intermediate Macroeconomics}
+			{\csulb}
+
+\entry{2016}
+			{Intermediate Microeconomics}
+			{\csulb}
+
+\entry{2015 - 2017}
+			{Principles of Microeconomics}
+			{\csulb}
+
+\vspace{.25cm}
+
+
+% Additional Training %
+\section{Additional Training}
+
+\medskip
+
+\entry{2020}
+			{Chancellor’s Making Excellence Inclusive Graduate Division Diversity Certification Program}
+			{\ucr}
+			{Graduate student participation in this Diversity Certificate Program will consider broad issues that affect higher and postsecondary education,  as well as the depth of knowledge and experience gained across a variety of learning contexts. The various experiences, backgrounds, and attributes of learners have a significant impact on their engagement with learning, perceptions of campus climate, and their educational and social outcomes. Learner differences cross dimensions that are material, corporeal, and symbolic. Together, we will explore intersectional strategies for negotiating these differences in: 
+			\begin{itemize} 
+				\item	 the microdynamics of pedagogy and instruction
+				\item the agendas and representation within curriculum
+				\item the nuances of departmental politics
+				\item the organizational structures of the educational institution and its relations with the communities it serves
+			\end{itemize}}
+
+\entry{2019-2020}
+			{University Teaching Certificate}
+			{\ucr}
+			{The University of California, Riverside’s Graduate Division created the University Teaching Certificate (UTC) Program as a two-quarter instructional training and certification program for graduate students. This highly competitive program is designed to assist graduate students interested in careers as university-level instructors to develop teaching and lecturing strategies, design a teaching philosophy, and become members of the professional teaching community. The goal of the UTC program is to equip graduate students with the necessary skills so that they can be regarded as both outstanding scholars and teachers in their continued work in academia.}
+
+\entry{2018}
+			{Inter-university Consortium for Political and Social Research (ICPSR) Summer Program in Quantitative Methods of Social Research}
+			{University of Michigan, Ann Arbor}
+			{The \href{https://www.icpsr.umich.edu/icpsrweb/content/sumprog/about.html}{ICPSR Summer Program} provides rigorous, hands-on training in statistical techniques, research methodologies, and data analysis. ICPSR Summer Program courses emphasize the integration of methodological strategies with the theoretical and practical concerns that arise in research on substantive issues. I completed the following courses: 
+			\begin{itemize}
+				\item Bayesian Modeling for the Social Sciences I
+				\item Multilevel Models I: Introduction and Application
+				\item Mathematics for Social Scientists III
+			\end{itemize}
+Please click \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Participation_Verification.pdf}{here} to view my certificate of completion and click \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Grades.pdf}{here} to view the grades I received.} 
+
+\entry{2017}
+			{Macroeconomic Forecasting}
+			{IMF Institute for Capacity Development}
+			{A 9-week course focused on developing forecasts and economic models for scenario analysis used in the design and implementation of macroeconomic policy. Certificate available \href{https://courses.edx.org/certificates/d1ac1a8d2755457a9651b9dad73c2602}{here}.} 
+
+\entry{2015}
+			{Plotting in R}
+			{American Statistical Association, Orange Country-Log Beach Chapter}
+			{A workshop focused on a data centric introduction to using R, in a reproducible way, incorporating lots of data graphics and exploratory data analysis.}
+
+\vspace{.25cm}
+
+
+% Coursework %
+\section{Relevant Coursework}
+
+\medskip
+
+\entry{Politics}
+			{Comparative Political Economy, Political Economy of International Trade, Political Economy of International Finance, Political Economy of International Migration, American Bureaucratic Institutions, Representation, US Congress, Politics of Race Immigration and Ethnicity, Public Opinion and Mass Media, American Electoral Behavior, Comparative Political Behavior}
+			{}
+			
+\vspace{0.10cm}
+			
+\entry{Economics}
+			{Advanced Macroeconomics, Advanced Microeconomics, International Finance, Development Economics}
+			{}
+
+\vspace{0.10cm}
+			
+\entry{Methods}
+			{Econometrics I, Econometrics II, Maximum Likelihood Estimation, Qualitative Research Methods}
+			{}
+
+\vspace{0.10cm}
+			
+\entry{Math}
+			{Calculus I, Calculus II, Calculus III, Linear Algebra}
+			{}
+
+
+% Software and Programming %
+\section{Software and Programming Knowledge}
+
+\medskip
+
+\entry{Languages}
+			{R, JAGS, BUGS, \LaTeX, HTML}
+			{}
+		
+\entry{Programs}
+			{RStudio, STATA, EViews}
+			{}
+			
+
+\end{document}
