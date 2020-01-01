@@ -24,6 +24,7 @@ interests:
 - Congress
 - Interest Groups and Lobbying
 - Representation
+- Bayesian Methods
 
 education:
   courses:
@@ -67,6 +68,6 @@ user_groups:
 # - Visitors
 ---
 
-I am currently a graduate student in the Political Science Department at the University of California, Riverside. Prior to attending UC Riverside, I completed a Master’s Degree in Economics at California State University, Long Beach.
+I am currently a graduate student in the [Political Science Department](https://politicalscience.ucr.edu) at the [University of California, Riverside](https://www.ucr.edu). Prior to attending UC Riverside, I completed a Master’s Degree in [Economics](http://www.cla.csulb.edu/departments/economics/) at [California State University, Long Beach](http://www.csulb.edu).
 
-My primary research interests are in the areas of representation, interest groups, and lobbying.
+My primary research interests are in Congress, interest groups and lobbying, and representation.
