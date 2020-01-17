@@ -71,9 +71,6 @@ Determinants of levels of income, employment, and prices; of secular and cyclica
 Business organization, price theory, allocation of resources, distribution of income, public economy.
 
 &nbsp;
-&nbsp;
-
-# Teaching Associate
 
 ## Introduction to Econometrics Lab (ECON 485)
 
