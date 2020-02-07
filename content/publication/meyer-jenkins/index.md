@@ -7,5 +7,5 @@ abstract = "Shocks to global interest rates or risk cause capital outflows for c
 selected = true
 publication = "*Journal of International Commerce, Economics and Policy*"
 draft= false
-doi = "https://www.worldscientific.com/doi/abs/10.1142/S1793993319500108"
+doi = "https://doi.org/10.1142/S1793993319500108"
 +++
