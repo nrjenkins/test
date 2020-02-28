@@ -13,3 +13,7 @@ type = "docs"  # Do not modify.
   name = "Tutorials"
   weight = 1
 +++
+
+Here are links to tutorials that I've used in my teaching.
+
+- [Math Review for the Masters in Economics' Program at California State University, Long Beach](content/tutorial/Math Review for the MA in Economics - CSULB.pdf)
