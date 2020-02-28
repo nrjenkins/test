@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 
 # View.
 #   1 = List
@@ -20,7 +20,7 @@ header:
 
 **University of California, Riverside**
 
-This class focuses on statistical methods for policy evaluation, that is, the methods one can use to understand the impact of an intervention such as a policy or government program. Topics covered include randomized control trials, regression discontinuity designs, difference-in-difference estimation, and instrumental variables regression.  
+This class focuses on statistical methods for policy evaluation, that is, the methods one can use to understand the impact of an intervention such as a policy or government program. This course introduces the potential outcomes framework for causal inference and design based causal inference techniques including randomized control trials, regression discontinuity designs, difference-in-difference estimation, and instrumental variables regression.
 
 &nbsp;
 
@@ -93,5 +93,3 @@ Principles and methods of forecasting. Evaluation of the reliability of existing
 **California State University, Long Beach**
 
 Use of descriptive and inferential statistical concepts for the analysis of economic data. Topics include measures of central tendency and dispersion, probability theory, discrete and continuous probability distributions, hypothesis testing, regression and correlation analysis.
-
-
