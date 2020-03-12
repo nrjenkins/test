@@ -16,4 +16,4 @@ type = "docs"  # Do not modify.
 
 Here are links to tutorials that I've used in my teaching.
 
-- {{% staticref "files/docs/tutorials/math_tutorial.pdf"}}Download my CV{{% /staticref %}}
+- [Presidential Elections]({{< ref "tutorial/math_tutorial.pdf" >}})
