@@ -15,5 +15,3 @@ type = "docs"  # Do not modify.
 +++
 
 Here are links to tutorials that I've used in my teaching.
-
-- [Presidential Elections]({{< ref "tutorial/math_tutorial.pdf" >}})
