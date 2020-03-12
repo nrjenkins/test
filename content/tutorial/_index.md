@@ -16,4 +16,4 @@ type = "docs"  # Do not modify.
 
 Here are links to tutorials that I've used in my teaching.
 
-- [Math Review for the Masters in Economics' Program at California State University, Long Beach](content/tutorial/math_tutorial.pdf)
+- {{% staticref "files/docs/tutorials/math_tutorial.pdf"}}Download my CV{{% /staticref %}}

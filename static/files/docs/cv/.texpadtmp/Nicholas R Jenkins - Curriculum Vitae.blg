@@ -1,15 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.blg'
-[37] biber-darwin:315> INFO - === Fri Feb 28, 2020, 12:43:26
-[64] Biber.pm:371> INFO - Reading '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bcf'
-[194] Biber.pm:889> INFO - Found 1 citekeys in bib section 0
-[209] Biber.pm:4093> INFO - Processing section 0
-[220] Biber.pm:4254> INFO - Looking for bibtex format file '/Users/nick/Documents/Research/References/BibTeX/biblatex.bib' for section 0
-[302] bibtex.pm:1523> INFO - LaTeX decoding ...
-[2683] bibtex.pm:1340> INFO - Found BibTeX data source '/Users/nick/Documents/Research/References/BibTeX/biblatex.bib'
-[2832] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2832] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2832] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[2832] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[2841] bbl.pm:636> INFO - Writing '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl' with encoding 'UTF-8'
-[2842] bbl.pm:739> INFO - Output to /Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl
+[42] biber-darwin:315> INFO - === Thu Mar 12, 2020, 09:42:52
+[71] Biber.pm:371> INFO - Reading '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bcf'
+[207] Biber.pm:889> INFO - Found 1 citekeys in bib section 0
+[222] Biber.pm:4093> INFO - Processing section 0
+[234] Biber.pm:4254> INFO - Looking for bibtex format file '/Users/nick/Documents/Research/References/BibTeX/biblatex.bib' for section 0
+[316] bibtex.pm:1523> INFO - LaTeX decoding ...
+[2866] bibtex.pm:1340> INFO - Found BibTeX data source '/Users/nick/Documents/Research/References/BibTeX/biblatex.bib'
+[3021] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3022] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3022] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[3022] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[3030] bbl.pm:636> INFO - Writing '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl' with encoding 'UTF-8'
+[3031] bbl.pm:739> INFO - Output to /Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl

@@ -11,6 +11,7 @@
 \usepackage{titling}
 \usepackage{bookmark}
 \usepackage{etaremune}
+\usepackage{graphbox}
 
 
 % Bibliography Setup %
@@ -88,9 +89,15 @@
 \newcommand{\tgb}{\href{http://coglanglab.com}{Tom Bever}}
 
 %Link images
-\newcommand{\pdf}{\includegraphics[height=.55\baselineskip]{PDF.jpg}}
+\newcommand{\pdf}{\includegraphics[align=c, height=.65\baselineskip]{PDF.jpg}}
 %\newcommand{\yt}{\includegraphics[height=.75\baselineskip]{yt.png}}
-\newcommand{\gh}{\includegraphics[height=.55\baselineskip]{github.png}}
+\newcommand{\gh}{\includegraphics[align=c, height=.65\baselineskip]{github.png}}
+\newcommand{\cert}{\includegraphics[align=c, height=1\baselineskip]{certificate2.png}}
+\newcommand{\grades}{\includegraphics[align=c, height=1\baselineskip]{grades.png}}
+
+\newcommand{\vcenteredinclude}[1]{\begingroup
+\setbox0=\hbox{\includegraphics[height=.65\baselineskip]{#1}}%
+\parbox{\wd}{\box0}\endgroup}
 
 %Section spacing and format:
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
@@ -161,7 +168,12 @@
 \entry{\emph{In Progress}}
 			{Doctor of Philosophy, Political Science}
 			{\ucr}
-			{Research interests in interest groups and lobbying, Congress, and representation.}
+			{Dissertation Committee: Kevin Esterling (Chair)}
+			
+\entry{2020}
+			{Master of Arts, Political Science}
+			{\ucr}
+			{Specialized in American politics.}
 			
 \entry{2017}
 			{Master of Arts, Economics}
@@ -239,23 +251,23 @@
 
 \entry{2020}
 			{Transparency or Deception? How Rejecting PAC Contributions Affects Contribution Patterns}
-			{Presented at the Association for Public Policy Analysis \& Management Regional Student Conference, Riverside, CA}
+			{Accepted (Conference Canceled) at the Association for Public Policy Analysis \& Management Regional Student Conference, Riverside, CA}
 			{}
 
 \entry{2020}
 			{Debtors and Democracy: The Effect of Student Loans on Political Participation (with Alex Ross)}
-			{Presented at the Western Political Science Association Annual Meeting, Los Angeles, CA}
+			{Accepted (Conference Canceled) at the Western Political Science Association Annual Meeting, Los Angeles, CA}
 			{}
 
 \entry{2020}
 			{Disruption in State Legislatures: Term Limits and Representational Linkages}
-			{Presented at the Western Political Science Association Annual Meeting, Los Angeles, CA}
+			{Accepted (Conference Canceled) at the Western Political Science Association Annual Meeting, Los Angeles, CA}
 			{}
 			
 \entry{2017}
-			{M.A. in Economics Math Review}
+			{M.A. in Economics Math Review \href{https://nrjenkins.github.io/nrjenkins.github.io/files/tutorials/math_tutorial.pdf}{\pdf}}
 			{\csulb}
-			{I created, and hosted, the math review session for the incoming cohort of graduate students in economics at \csulb. The PDF will be available soon!}
+			{I created, and hosted, the math review session for the incoming cohort of graduate students in economics at \csulb.}
 			
 \entry{2016}
 			{Instrumental Variables Regression \href{https://github.com/nrjenkins/workshops/blob/master/iv_regression/IV_presentation.pdf}{\pdf} \href{https://github.com/nrjenkins/workshops/tree/master/iv_regression}{\gh}}
@@ -402,13 +414,7 @@
 \entry{2020}
 			{Chancellor’s Making Excellence Inclusive Graduate Division Diversity Certification Program}
 			{\ucr}
-			{The Diversity Certificate Program is a one-quarter long program that considers broad issues that affect higher and postsecondary education, as well as the depth of knowledge and experience gained across a variety of learning contexts. The various experiences, backgrounds, and attributes of learners have a significant impact on their engagement with learning, perceptions of campus climate, and their educational and social outcomes. Learner differences cross dimensions that are material, corporeal, and symbolic. Together, we will explore intersectional strategies for negotiating these differences in: 
-			\begin{itemize} 
-				\item	 the microdynamics of pedagogy and instruction
-				\item the agendas and representation within curriculum
-				\item the nuances of departmental politics
-				\item the organizational structures of the educational institution and its relations with the communities it serves
-			\end{itemize}}
+			{The Diversity Certificate Program is a 10-week program that is designed to sustain and strengthen a supportive network of UCR graduate students interested in research, pedagogy, skills development, and learning around issues of diversity, equity, and inclusion.}
 
 \entry{2020}
 			{University Teaching Certificate}
@@ -416,7 +422,7 @@
 			{The University of California, Riverside’s Graduate Division created the University Teaching Certificate (UTC) Program as a two-quarter instructional training and certification program for graduate students. This highly competitive program is designed to assist graduate students interested in careers as university-level instructors to develop teaching and lecturing strategies, design a teaching philosophy, and become members of the professional teaching community. The goal of the UTC program is to equip graduate students with the necessary skills so that they can be regarded as both outstanding scholars and teachers in their continued work in academia.}
 
 \entry{2018}
-			{Inter-university Consortium for Political and Social Research (ICPSR) Summer Program in Quantitative Methods of Social Research}
+			{Inter-university Consortium for Political and Social Research (ICPSR) Summer Program in Quantitative Methods of Social Research \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Participation_Verification.pdf}{\cert} \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Grades.pdf}{\grades}}
 			{University of Michigan, Ann Arbor}
 			{The \href{https://www.icpsr.umich.edu/icpsrweb/content/sumprog/about.html}{ICPSR Summer Program} provides rigorous, hands-on training in statistical techniques, research methodologies, and data analysis. ICPSR Summer Program courses emphasize the integration of methodological strategies with the theoretical and practical concerns that arise in research on substantive issues. I completed the following courses: 
 			\begin{itemize}
@@ -427,7 +433,7 @@
 Please click \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Participation_Verification.pdf}{here} to view my certificate of completion and click \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Grades.pdf}{here} to view the grades I received.} 
 
 \entry{2017}
-			{Macroeconomic Forecasting}
+			{Macroeconomic Forecasting \href{https://courses.edx.org/certificates/d1ac1a8d2755457a9651b9dad73c2602}{\cert}}
 			{IMF Institute for Capacity Development}
 			{A 9-week course focused on developing forecasts and economic models for scenario analysis used in the design and implementation of macroeconomic policy. Certificate available \href{https://courses.edx.org/certificates/d1ac1a8d2755457a9651b9dad73c2602}{here}.} 
 
@@ -457,13 +463,13 @@ Please click \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Participation
 \vspace{0.10cm}
 			
 \entry{Methods}
-			{Econometrics I, Econometrics II, Maximum Likelihood Estimation, Qualitative Research Methods}
+			{Econometrics I, Econometrics II, Maximum Likelihood Estimation, Multilevel Modeling, Bayesian Modeling for the Social Sciences, Macroeconomic Forecasting, Qualitative Research Methods}
 			{}
 
 \vspace{0.10cm}
 			
 \entry{Math}
-			{Calculus I, Calculus II, Calculus III, Linear Algebra}
+			{Calculus I, Calculus II, Calculus III, Linear Algebra, Mathematics for Social Scientists III}
 			{}
 
 
