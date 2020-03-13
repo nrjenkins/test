@@ -31,6 +31,9 @@ education:
   - course: PhD in Political Science
     institution: University of California, Riverside
     year: In Progress
+  - course: MA in Political Science
+    institution: University of California, Riverside
+    year: 2017
   - course: MA in Economics
     institution: California State University, Long Beach
     year: 2017
