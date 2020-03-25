@@ -13,3 +13,8 @@ type = "docs"  # Do not modify.
   name = "Tutorials"
   weight = 1
 +++
+
+Here are some tutorials that I have put together:
+
+- [Presidential Elections]({{< ref "tutorial/posc149intro.md" >}})
+- [Intermediate Math Review](https://nrjenkins.github.io/nrjenkins.github.io/files/tutorials/math_tutorial.pdf)
