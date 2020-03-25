@@ -1,5 +1,5 @@
 +++
-title = "Overview"
+title = "Tutorials"
 
 date = 2018-09-09T00:00:00
 # lastmod = 2018-09-09T00:00:00
@@ -13,5 +13,3 @@ type = "docs"  # Do not modify.
   name = "Tutorials"
   weight = 1
 +++
-
-Here are links to tutorials that I've used in my teaching.
