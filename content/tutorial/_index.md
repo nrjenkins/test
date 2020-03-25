@@ -16,5 +16,5 @@ type = "docs"  # Do not modify.
 
 Here are some tutorials that I have put together:
 
-- [Policy Evaluation]({{< ref "tutorial/policy_evaluation/example1.md" >}})
+- [How to Do a Policy Evaluation Project in R]({{< ref "tutorial/policy_eval.Rmd" >}})
 - [Intermediate Math Review](https://nrjenkins.github.io/nrjenkins.github.io/files/tutorials/math_tutorial.pdf)
