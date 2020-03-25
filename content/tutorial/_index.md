@@ -16,5 +16,5 @@ type = "docs"  # Do not modify.
 
 Here are some tutorials that I have put together:
 
-- [Test]({{< ref "tutorial/math/example1.md" >}})
+- [Presidential Elections]({{< ref "tutorial/posc149intro.md" >}})
 - [Intermediate Math Review](https://nrjenkins.github.io/nrjenkins.github.io/files/tutorials/math_tutorial.pdf)
