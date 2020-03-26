@@ -334,7 +334,7 @@ generated quantities {
 ```
 
 
-# Sampling
+## Sampling
 
 With the model programmed, we are ready to sample from it. We have to start by preparing the data. To prep the data we need to remove variables that we don't need, convert the data to a list (Stan will not accept data frames), and generate a variable that tells us the number of observations. The `tidybayes` package is helpful for these tasks. 
 
