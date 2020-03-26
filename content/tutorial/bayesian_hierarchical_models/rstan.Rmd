@@ -53,7 +53,7 @@ $$
 
 A complete Stan program for this model looks like the following:
 
-```{stan}
+```{stan output.var = "example"}
 data { // This is the data block
   int N; // Specify Sample Size
   real y[N]; // A variable named y with length n
@@ -79,7 +79,7 @@ model {
   
   // Write the linear model
   for (i in 1:N) {
-    mu[i] = a + b * x[i]
+    mu[i] = a + b * x[i];
   }
   
   // Write out priors
