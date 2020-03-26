@@ -16,5 +16,5 @@ type = "docs"  # Do not modify.
 
 Here are some tutorials that I have put together:
 
-- [Policy Evaluation]({{< ref "tutorial/policy_evaluation/example1.md" >}})
+- [Bayesian Hierarchical Models with Stan]({{< ref "tutorial/bayesian_hierarchical_models" >}})
 - [Intermediate Math Review](https://nrjenkins.github.io/nrjenkins.github.io/files/tutorials/math_tutorial.pdf)
