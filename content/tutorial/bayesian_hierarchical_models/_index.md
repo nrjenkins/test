@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
-linktitle: Bayesian Hierarchical Models with Stan
-summary: Learn how to implement hierarchical models in Stan.
+linktitle: Bayesian Inference with Stan
+summary: Learn how to implement Bayesian models in Stan.
 weight: 1
 
 # Page metadata.

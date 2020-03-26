@@ -16,5 +16,5 @@ type = "docs"  # Do not modify.
 
 Here are some tutorials that I have put together:
 
-- [Bayesian Hierarchical Models with Stan]({{< ref "tutorial/bayesian_hierarchical_models" >}})
+- [Bayesian Inference with Stan]({{< ref "tutorial/bayesian_hierarchical_models" >}})
 - [Intermediate Math Review](https://nrjenkins.github.io/nrjenkins.github.io/files/tutorials/math_tutorial.pdf)
