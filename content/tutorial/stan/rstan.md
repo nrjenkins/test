@@ -3,7 +3,7 @@ title: "Getting Started with Stan"
 linktitle: Getting Started with Stan
 toc: yes
 type: docs
-draft: no
+draft: false
 date: '2019-05-05T00:00:00+01:00'
 menu:
   tutorial:
