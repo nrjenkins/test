@@ -1,5 +1,5 @@
 ---
-title: Example Page 1
+title: Getting Started with Stan
 linktitle: Tips 1-2
 toc: true
 type: docs
