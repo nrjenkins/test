@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
-linktitle: Bayesian Inference with Stan
-summary: Learn how to implement Bayesian models in Stan.
+linktitle: Bayesian Inference Using Stan
+summary: Learn how to use Stan and R to estimate Bayesian models.
 weight: 1
 
 # Page metadata.
@@ -27,4 +27,4 @@ In this series of tutorials, I will show you how to use Stan to program hierarch
 
 Rather than focus on the mathematical details of bayesian inference, these tutorials will mostly focus on their implementation in Stan.
 
-[Stan](https://mc-stan.org) is a programming language for bayesian inference that uses Hamiltonian Monte Carlo sampling. Hamiltonian Monte Carlo (HMC) sampling uses on gradian evaluation to sample from the posterior which is much more efficient than other sampling methods like Metropolis-Hastings and Gibbs sampling. As a result, HMC can achieve convergence much faster than these alternative samplers.     
+[Stan](https://mc-stan.org) is a programming language for bayesian inference that uses Hamiltonian Monte Carlo sampling. Hamiltonian Monte Carlo (HMC) sampling uses on gradian evaluation to sample from the posterior which is much more efficient than other sampling methods like Metropolis-Hastings and Gibbs sampling. As a result, HMC can achieve convergence much faster than these alternative samplers.
