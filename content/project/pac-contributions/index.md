@@ -3,14 +3,13 @@ title: Transparency or Deception? How Rejecting PAC Contributions Affects Contri
 summary:
 tags:
 - Elections
-- Campaign Finance
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Bill Clark/CQ Roll Call file photo
   focal_point: Smart
 
 links:
