@@ -21,42 +21,10 @@ menu:
     weight: 1
 ---
 
-## Flexibility
+## Bayesian Inference with Stan
 
-This feature can be used for publishing content such as:
+In this series of tutorials, I will show you how to use Stan to program hierarchical models. These tutorials will follow the chapters in [Bayesian Hierarchical Models](https://www.amazon.com/Bayesian-Hierarchical-Models-Applications-Second/dp/1498785751) written by Peter D. Congdon.
 
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
+Rather than focus on the mathematical details of bayesian inference, these tutorials will mostly focus on their implementation in Stan.
 
-The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
-
-## Delete tutorials
-
-**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
-
-## Update site menu
-
-After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
-
-For example, if you delete this folder, you can remove the following from your menu configuration:
-
-```toml
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
-```
-
-Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
-
-```toml
-[[main]]
-  name = "Docs"
-  url = "docs/"
-  weight = 50
-```
-
-## Update the docs menu
-
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+[Stan](https://mc-stan.org) is a programming language for bayesian inference that uses Hamiltonian Monte Carlo sampling. Hamiltonian Monte Carlo (HMC) sampling uses on gradian evaluation to sample from the posterior which is much more efficient than other sampling methods like Metropolis-Hastings and Gibbs sampling. As a result, HMC can achieve convergence much faster than these alternative samplers.
