@@ -10,6 +10,8 @@ menu:
     parent: Getting Started
     weight: 1
 
+markup: mmark
+
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 1
 ---
@@ -22,7 +24,7 @@ In general the Bayesian workflow consists of steps:
 2. Program your statistical model and sample from it.
 3. Evaluate your model's reliability. Check for Markov chain convergence to make sure that your model has produced reliable estimates.
 4. Evaluate your model's performance. How well does your model approximate the data generating process? This involves using posterior predictive checks.
-5. Summarize your model's results in tabular and graphical form. 
+5. Summarize your model's results in tabular and graphical form.
 
 ## What is Stan?
 
