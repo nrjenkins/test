@@ -1,6 +1,6 @@
 ---
-title: "Getting Started with Stan"
-linktitle: Getting Started with Stan
+title: Getting Started with Stan
+linktitle: RStan
 toc: yes
 type: docs
 draft: false
@@ -8,7 +8,10 @@ date: '2019-05-05T00:00:00+01:00'
 menu:
   tutorial:
     parent: Stan Programming
-    weight: 2
+    weight: 1
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 1
 ---
 
 # Bayesian Workflow with Stan
