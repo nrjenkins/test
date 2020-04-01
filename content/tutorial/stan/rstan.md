@@ -6,9 +6,9 @@ type: docs
 draft: no
 date: '2019-05-05T00:00:00+01:00'
 menu:
-  tutorial: Bayesian Inference with Stan
+  tutorial:
     parent: Stan Programming
-    weight: 1
+    weight: 2
 ---
 
 # Bayesian Workflow with Stan
