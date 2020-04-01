@@ -21,7 +21,6 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-doi = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3565677"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
