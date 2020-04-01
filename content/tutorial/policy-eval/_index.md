@@ -19,6 +19,8 @@ menu:
   policy-eval:
     name: Policy Evaluation
     weight: 1
+
+markup: mmark
 ---
 
 ## Overview
@@ -42,7 +44,7 @@ As a data analyst, it is absolutely essential that you keep detailed documentati
 
 To create an Rmarkdown document go to file -> New File -> R notebook:
 
-![](create_markdown.png){width=50%}
+![](create_markdown.png)
 
 For a good overview of Rmarkdown check out chapter 27 of [R for Data Science](https://r4ds.had.co.nz/r-markdown.html). For more details, check out [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/).
 
