@@ -1,6 +1,6 @@
 ---
 title: Transparency or Deception? How Rejecting PAC Contributions Affects Contribution Patterns
-summary:
+summary: 
 tags:
 - Elections
 - Campaign Finance
@@ -14,10 +14,8 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+- name: SSRN
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3565677
 url_code: ""
 url_pdf: ""
 url_slides: ""
