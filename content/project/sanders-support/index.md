@@ -2,7 +2,8 @@
 title: Are Student Debtors a Subconstituency? The Effect of Student Loans on Issue Voting
 summary:
 tags:
-- Demo
+- Elections
+- Representation
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
