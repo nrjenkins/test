@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Test Tutorial
 summary: Learn how to use Stan and R to estimate Bayesian models.
-weight: 1
+weight: 2
 
 # Page metadata.
 title: Overview
