@@ -14,7 +14,15 @@ menu:
 weight: 1
 ---
 
-# Bayesian Workflow with Stan
+## Bayesian Workflow
+
+In general the Bayesian workflow consists of steps:
+
+1. Consider the social process that generates your data. The goal of your statistical model should be to model the data generating process, so think hard about this. Exploratory analysis goes a long way towards helping you to understand this process.
+2. Program your statistical model and sample from it.
+3. Evaluate your model's reliability. Check for Markov chain convergence to make sure that your model has produced reliable estimates.
+4. Evaluate your model's performance. How well does your model approximate the data generating process? This involves using posterior predictive checks.
+5. Summarize your model's results in tabular and graphical form. 
 
 ## What is Stan?
 
