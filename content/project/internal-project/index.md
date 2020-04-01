@@ -1,8 +1,8 @@
 ---
-title: Internal Project
-summary: An example of using the in-built project page.
+title: Transparency or Deception? How Rejecting PAC Contributions Affects Contribution Patterns
+summary: A growing trend among Congressional and presidential candidates is to reject cam- paign contributions from corporate Political Action Committees (PACs). Although positioned as an effort to increase democratic transparency, researchers have yet to examine how these pledges affect contribution patterns. Using data on Democratic candidates in the 2018 Congressional election, I find that although pledging to reject corporate PAC contributions is associated with decreases in contributions from ideo- logical, labor, and business PACs, taking the pledge is also associated with increases in contributions from political PACs and individuals. Increases in individual contributions include small-dollar donations and donations from individuals affiliated ideological and business interests. Additionally, I find that pledging to reject PAC contributions has no electoral benefits. This is the first study to examine the effects of rejecting PAC contributions on contribution patterns, and the first test of the claim that making this pledge will increase small-dollar donations.
 tags:
-- Deep Learning
+- Elections
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
