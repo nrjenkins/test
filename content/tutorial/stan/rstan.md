@@ -9,9 +9,6 @@ menu:
   tutorial:
     parent: Stan Programming
     weight: 1
-
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
 ---
 
 # Bayesian Workflow with Stan
