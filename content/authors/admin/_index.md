@@ -58,9 +58,6 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Nicholas_Jenkins8
-- icon: academia
-  icon_pack: ai
-  link: https://ucriverside.academia.edu/NicholasJenkins
 - link: publons
   icon_pack: ai
   link: https://publons.com/researcher/3537863/nicholas-r-jenkins/
