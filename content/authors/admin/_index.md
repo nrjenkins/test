@@ -61,9 +61,6 @@ social:
 - icon: academia
   icon_pack: ai
   link: https://ucriverside.academia.edu/NicholasJenkins
-- link: researcherid
-  icon_pack: ai
-  link: https://researchid.co/nickrjenkins
 - link: publons
   icon_pack: ai
   link: https://publons.com/researcher/3537863/nicholas-r-jenkins/
