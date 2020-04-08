@@ -60,6 +60,9 @@ social:
 - icon: cv
   icon_pack: ai
   link: files/docs/cv/Nicholas R Jenkins - Curriculum Vitae.pdf
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Nicholas_Jenkins8
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "nicholas.jenkins@email.ucr.edu"
