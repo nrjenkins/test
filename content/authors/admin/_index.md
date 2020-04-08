@@ -55,14 +55,23 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/nrjenkins
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Nicholas_Jenkins8
+- icon: academia
+  icon_pack: ai
+  link: https://ucriverside.academia.edu/NicholasJenkins
+- link: researcherid
+  icon_pack: ai
+  link: https://researchid.co/nickrjenkins
+- link: publons
+  icon_pack: ai
+  link: https://publons.com/researcher/3537863/nicholas-r-jenkins/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
   link: files/docs/cv/Nicholas R Jenkins - Curriculum Vitae.pdf
-- icon: researchgate
-  icon_pack: ai
-  link: https://www.researchgate.net/profile/Nicholas_Jenkins8
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "nicholas.jenkins@email.ucr.edu"
