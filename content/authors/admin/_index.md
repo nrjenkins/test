@@ -57,10 +57,10 @@ social:
   link: https://github.com/nrjenkins
 - link: publons
   icon_pack: ai
-  link: https://publons.com/researcher/3537863/nicholas-r-jenkins/
+  link: https://publons.com/researcher/3537863/nicholas-r-jenkins
 - link: osf
   icon_pack: ai
-  link: https://osf.io/xz5gy/
+  link: https://osf.io/xz5gy
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Nicholas_Jenkins8
