@@ -48,16 +48,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:nicholas.jenkins@email.ucr.edu  # For a direct email link, use "mailto:test@example.org".
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?hl=en&user=FPXYTX0AAAAJ
+  link: mailto:nicholas.jenkins@email.ucr.edu
 - icon: github
   icon_pack: fab
   link: https://github.com/nrjenkins
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?hl=en&user=FPXYTX0AAAAJ
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Nicholas_Jenkins8
+- icon: osf
+  icon_pack: ai
+  link: https://osf.io/xz5gy/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
