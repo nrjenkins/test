@@ -14,8 +14,8 @@ image:
   focal_point: Smart
 
 links:
-- name: Available on SSRN
-  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3565677
+- name: Available on SocArXiv
+  url: https://osf.io/preprints/socarxiv/cf3jn/
 url_code: ""
 url_pdf: ""
 url_slides: ""
