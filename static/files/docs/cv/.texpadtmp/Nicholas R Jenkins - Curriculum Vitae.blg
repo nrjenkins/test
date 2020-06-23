@@ -1,18 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.blg'
-[37] biber-darwin:315> INFO - === Fri May 15, 2020, 16:11:07
-[60] Biber.pm:371> INFO - Reading '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bcf'
-[178] Biber.pm:889> INFO - Found 2 citekeys in bib section 0
-[190] Biber.pm:4093> INFO - Processing section 0
-[200] Biber.pm:4254> INFO - Looking for bibtex format file '/Users/nick/Documents/Research/References/BibTeX/biblatex.bib' for section 0
-[286] bibtex.pm:1523> INFO - LaTeX decoding ...
-[2830] bibtex.pm:1340> INFO - Found BibTeX data source '/Users/nick/Documents/Research/References/BibTeX/biblatex.bib'
-[2891] Utils.pm:193> WARN - BAD RECURSION! Entry alias 'hall1987' is identical to the entry key, skipping ...
-[2973] Utils.pm:193> WARN - year field 'Forthcoming' in entry 'jenkinsForthcoming' is not an integer - this will probably not sort properly.
-[2990] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2990] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2990] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[2991] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[2994] bbl.pm:636> INFO - Writing '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl' with encoding 'UTF-8'
-[2995] bbl.pm:739> INFO - Output to /Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl
-[2995] Biber.pm:110> INFO - WARNINGS: 2
+[44] biber-darwin:315> INFO - === Tue Jun 23, 2020, 16:11:00
+[69] Biber.pm:371> INFO - Reading '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bcf'
+[226] Biber.pm:889> INFO - Found 2 citekeys in bib section 0
+[242] Biber.pm:4093> INFO - Processing section 0
+[257] Biber.pm:4254> INFO - Looking for bibtex format file '/Users/nick/Documents/Research/References/BibTeX/biblatex.bib' for section 0
+[373] bibtex.pm:1523> INFO - LaTeX decoding ...
+[3352] bibtex.pm:1340> INFO - Found BibTeX data source '/Users/nick/Documents/Research/References/BibTeX/biblatex.bib'
+[3456] Utils.pm:193> WARN - BAD RECURSION! Entry alias 'hall1987' is identical to the entry key, skipping ...
+[3542] Utils.pm:193> WARN - year field 'Forthcoming' in entry 'jenkinsForthcoming' is not an integer - this will probably not sort properly.
+[3558] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3559] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3559] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[3559] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[3562] bbl.pm:636> INFO - Writing '/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl' with encoding 'UTF-8'
+[3564] bbl.pm:739> INFO - Output to /Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl
+[3564] Biber.pm:110> INFO - WARNINGS: 2
