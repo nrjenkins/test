@@ -18,24 +18,27 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{jenkinsForthcoming}{article}{}
+  \datalist[entry]{cms/global//global/global}
+    \entry{jenkins2020c}{article}{}
       \name{author}{3}{}{%
-        {{hash=e5b5be03b9878776e4abdad083383f64}{%
+        {{uniquename=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
            family={Jenkins},
            familyi={J\bibinitperiod},
            given={Nicholas\bibnamedelima R.},
-           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=7db60853f3bf17c51a2adcf0e37ddc07}{%
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7db60853f3bf17c51a2adcf0e37ddc07}{%
            family={Landgrave},
            familyi={L\bibinitperiod},
            given={Michelangelo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=3600d86f719e99c5ed8f223b69abb95e}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3600d86f719e99c5ed8f223b69abb95e}{%
            family={Martinez},
            familyi={M\bibinitperiod},
            given={Gabriel\bibnamedelima E.},
-           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{48c3dea95b9f3b253f0e1febf8859493}
       \strng{fullhash}{48c3dea95b9f3b253f0e1febf8859493}
@@ -46,25 +49,34 @@
       \field{sortinit}{J}
       \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Behavioral Public Administration}
+      \field{month}{7}
+      \field{number}{2}
       \field{title}{Do Campaign Contributions Facilitate Access to Government Information? {{Evidence}} from a {{FOIA}} Compliance Field Experiment with {{US}} Municipalities}
-      \field{year}{Forthcoming}
+      \field{volume}{3}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.30636/jbpa.32.111
+      \endverb
     \endentry
     \entry{meyer2019}{article}{}
       \name{author}{2}{}{%
-        {{hash=efccb3f82f87156a7876f6d77d3117e2}{%
+        {{uniquename=0,uniquepart=base,hash=efccb3f82f87156a7876f6d77d3117e2}{%
            family={Meyer},
            familyi={M\bibinitperiod},
            given={Jacob\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=e5b5be03b9878776e4abdad083383f64}{%
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
            family={Jenkins},
            familyi={J\bibinitperiod},
            given={Nicholas\bibnamedelima R.},
-           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{5a62e2dfa4b109ae449935aa443d58aa}
       \strng{fullhash}{5a62e2dfa4b109ae449935aa443d58aa}
