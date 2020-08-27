@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  27 AUG 2020 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  27 AUG 2020 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -104,8 +104,16 @@ Now handling font encoding PD1 ...
  (/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `CJKbookmarks' set `true' on input line 4393.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4393.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4393.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
-Package hyperref Info: Option `bookmarks' set `true' on input line 4393.
+
+
+Package hyperref Warning: Invalid value `001'
+(hyperref)                for option `pdfborder'.
+(hyperref)                Option setting is ignored on input line 4393.
+
 Package hyperref Info: Hyper figures OFF on input line 4519.
 Package hyperref Info: Link nesting OFF on input line 4524.
 Package hyperref Info: Hyper index ON on input line 4527.
@@ -114,7 +122,7 @@ Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
 \c@Hy@tempcnt=\count94
- (/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -136,7 +144,7 @@ LaTeX Info: Redefining \pageref on input line 6454.
 \c@Item=\count97
 \c@Hfootnote=\count98
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver: hpdftex.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
 \Fld@listcount=\count99
@@ -220,8 +228,7 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@orf=\skip58
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count106
 \calc@Bcount=\count107
@@ -276,7 +283,8 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count113
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
- (/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count114
  (/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
@@ -505,24 +513,23 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 ))
 \@quotelevel=\count302
 \@quotereset=\count303
-
-(/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.aux)
+ (/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.aux)
 \openout1 = `"Nicholas R Jenkins - Curriculum Vitae.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -559,7 +566,7 @@ LaTeX Font Info:    ... okay on input line 125.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring ON on input line 125.
+Package hyperref Info: Link coloring ON on input line 128.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -567,9 +574,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count304
 )
-LaTeX Info: Redefining \ref on input line 125.
-LaTeX Info: Redefining \pageref on input line 125.
-LaTeX Info: Redefining \nameref on input line 125.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
  (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count305
@@ -603,19 +610,19 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Nicholas R Jenkins - Curriculum Vitae".bbl' found.
  (/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl)
-Package biblatex Info: Reference section=0 on input line 125.
-Package biblatex Info: Reference segment=0 on input line 125.
+Package biblatex Info: Reference section=0 on input line 128.
+Package biblatex Info: Reference segment=0 on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 140.
+(Font)              <7> on input line 143.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 140.
+(Font)              <5> on input line 143.
 
-Overfull \hbox (9.997pt too wide) in paragraph at lines 140--144
+Overfull \hbox (9.997pt too wide) in paragraph at lines 143--147
 [][] 
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 138--151
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 141--154
 [][] [] 
  []
 
@@ -624,114 +631,110 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 138--151
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 240.
+(Font)              using `OT1/cmr/bx/n' instead on input line 243.
 
 
-Overfull \hbox (1.51083pt too wide) in paragraph at lines 243--244
+Overfull \hbox (1.51083pt too wide) in paragraph at lines 246--247
 [][] 
  []
 
 
-Overfull \hbox (1.51083pt too wide) in paragraph at lines 244--245
+Overfull \hbox (1.51083pt too wide) in paragraph at lines 247--248
 [][] 
  []
 
 <PDF.jpg, id=32, 259.97125pt x 114.4275pt>
 File: PDF.jpg Graphic file (type jpg)
 <use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 281.
+Package pdftex.def Info: PDF.jpg  used on input line 284.
 (pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
 File: PDF.jpg Graphic file (type jpg)
 <use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 286.
+Package pdftex.def Info: PDF.jpg  used on input line 289.
 (pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
 <github.png, id=35, 1290.8225pt x 1267.73625pt>
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 286.
+Package pdftex.def Info: github.png  used on input line 289.
 (pdftex.def)             Requested size: 7.93762pt x 7.79993pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 299.
+(Font)              <8> on input line 302.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 299.
+(Font)              <6> on input line 302.
 [2 <./PDF.jpg> <./github.png>] [3]
 <certificate2.png, id=83, 513.92pt x 513.92pt>
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 420.
+Package pdftex.def Info: certificate2.png  used on input line 423.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 425.
+Package pdftex.def Info: certificate2.png  used on input line 428.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 430.
+Package pdftex.def Info: certificate2.png  used on input line 433.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 441.
+Package pdftex.def Info: certificate2.png  used on input line 444.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 <grades.png, id=88, 513.92pt x 513.92pt>
 File: grades.png Graphic file (type png)
 <use grades.png>
-Package pdftex.def Info: grades.png  used on input line 441.
+Package pdftex.def Info: grades.png  used on input line 444.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 441.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 444.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 441.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 444.
  [4 <./certificate2.png>]
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 446.
+Package pdftex.def Info: certificate2.png  used on input line 449.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--496
+Underfull \hbox (badness 10000) in paragraph at lines 495--499
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 498.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 501.
 [5 <./grades.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 498.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 501.
  (/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 498.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 498.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 501.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 501.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to '"Nicholas R Jenkins - Curriculum Vitae".run.xml'.
 \openout1 = `"Nicholas R Jenkins - Curriculum Vitae.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 498.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 501.
  ) 
 Here is how much of TeX's memory you used:
- 15370 strings out of 492616
- 265668 string characters out of 6129482
- 988145 words of memory out of 5000000
- 19117 multiletter control sequences out of 15000+600000
+ 15376 strings out of 492616
+ 265757 string characters out of 6129482
+ 988339 words of memory out of 5000000
+ 19123 multiletter control sequences out of 15000+600000
  9092 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,67p,1303b,4002s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,69p,1303b,4002s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.pdf" (5 pages, 297725 bytes).
+Output written on "/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.pdf" (5 pages, 297757 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  155 compressed objects within 2 object streams
