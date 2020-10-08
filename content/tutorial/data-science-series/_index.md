@@ -5,7 +5,7 @@ summary: Learn how to use Stata and R for data science.
 weight: 1
 
 # Page metadata.
-title: Overview
+title: Data Science Workshop
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
