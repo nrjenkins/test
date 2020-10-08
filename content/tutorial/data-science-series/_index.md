@@ -23,4 +23,14 @@ menu:
 
 ## Introduction to Data Science with Stata and R
 
-In this workshop, you will learn how to use Stata and R to clean data, create effective visualizations, and models for inference.
+In this workshop, you will learn how to use Stata and R to clean data, create effective visualizations, and models for inference. In this workshop, we will learn the following:
+
+1. Load a data set in Stata and R and clean it for analysis
+
+2. Calculate descriptive statistics and visualize your data in Stata and R
+
+3. Analyze data with basic modeling techniques in Stata and R
+
+4. Visualize the results of your model and generate predictions
+
+All the files needed for this workshop are in Github here: https://github.com/nrjenkins/Data-Science-Workshop.git
