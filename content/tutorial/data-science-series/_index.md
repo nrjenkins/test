@@ -17,10 +17,10 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   example:
-    name: Overview
+    name: Test
     weight: 1
 ---
 
 ## Introduction to Data Science with Stata and R
 
-In this workshop, you will learn how to use Stata and R to clean data, create effective visualizations, and models for inference. 
+In this workshop, you will learn how to use Stata and R to clean data, create effective visualizations, and models for inference.
