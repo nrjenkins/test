@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Data Science With Stata and R
 summary: Learn how to use Stata and R for data science.
-weight: 1
+weight: 3
 
 # Page metadata.
 title: Data Science Workshop
@@ -16,8 +16,8 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  example:
-    name: Test
+  data-science:
+    name: Overview
     weight: 1
 ---
 
