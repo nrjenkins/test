@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  22 SEP 2020 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  27 OCT 2020 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -643,79 +643,83 @@ Overfull \hbox (1.51083pt too wide) in paragraph at lines 247--248
 [][] 
  []
 
-<PDF.jpg, id=33, 259.97125pt x 114.4275pt>
-File: PDF.jpg Graphic file (type jpg)
-<use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 284.
-(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
+<github.png, id=31, 1290.8225pt x 1267.73625pt>
+File: github.png Graphic file (type png)
+<use github.png>
+Package pdftex.def Info: github.png  used on input line 265.
+(pdftex.def)             Requested size: 7.93762pt x 7.79993pt.
+<PDF.jpg, id=36, 259.97125pt x 114.4275pt>
 File: PDF.jpg Graphic file (type jpg)
 <use PDF.jpg>
 Package pdftex.def Info: PDF.jpg  used on input line 289.
 (pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
-<github.png, id=36, 1290.8225pt x 1267.73625pt>
+File: PDF.jpg Graphic file (type jpg)
+<use PDF.jpg>
+Package pdftex.def Info: PDF.jpg  used on input line 294.
+(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 289.
+Package pdftex.def Info: github.png  used on input line 294.
 (pdftex.def)             Requested size: 7.93762pt x 7.79993pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 302.
+(Font)              <8> on input line 307.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 302.
-[2 <./PDF.jpg> <./github.png>] [3]
-<certificate2.png, id=84, 513.92pt x 513.92pt>
-File: certificate2.png Graphic file (type png)
-<use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 423.
-(pdftex.def)             Requested size: 11.99791pt x 12.0pt.
-File: certificate2.png Graphic file (type png)
-<use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 428.
-(pdftex.def)             Requested size: 11.99791pt x 12.0pt.
+(Font)              <6> on input line 307.
+[2 <./github.png> <./PDF.jpg>] [3]
+<certificate2.png, id=86, 513.92pt x 513.92pt>
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
 Package pdftex.def Info: certificate2.png  used on input line 433.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 444.
+Package pdftex.def Info: certificate2.png  used on input line 438.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
-<grades.png, id=89, 513.92pt x 513.92pt>
+File: certificate2.png Graphic file (type png)
+<use certificate2.png>
+Package pdftex.def Info: certificate2.png  used on input line 443.
+(pdftex.def)             Requested size: 11.99791pt x 12.0pt.
+File: certificate2.png Graphic file (type png)
+<use certificate2.png>
+Package pdftex.def Info: certificate2.png  used on input line 454.
+(pdftex.def)             Requested size: 11.99791pt x 12.0pt.
+<grades.png, id=91, 513.92pt x 513.92pt>
 File: grades.png Graphic file (type png)
 <use grades.png>
-Package pdftex.def Info: grades.png  used on input line 444.
+Package pdftex.def Info: grades.png  used on input line 454.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 444.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 454.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 444.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 454.
  [4 <./certificate2.png>]
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 449.
+Package pdftex.def Info: certificate2.png  used on input line 459.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--499
+Underfull \hbox (badness 10000) in paragraph at lines 505--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 501.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 511.
 [5 <./grades.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 501.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 511.
  (/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 501.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 501.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 511.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 511.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -723,21 +727,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to '"Nicholas R Jenkins - Curriculum Vitae".run.xml'.
 \openout1 = `"Nicholas R Jenkins - Curriculum Vitae.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 501.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 511.
  ) 
 Here is how much of TeX's memory you used:
  15376 strings out of 492616
  265757 string characters out of 6129482
- 988339 words of memory out of 5000000
+ 989339 words of memory out of 5000000
  19123 multiletter control sequences out of 15000+600000
  9092 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,11n,69p,1303b,4002s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.pdf" (5 pages, 297813 bytes).
+Output written on "/Users/nick/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.pdf" (5 pages, 299085 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 185 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
