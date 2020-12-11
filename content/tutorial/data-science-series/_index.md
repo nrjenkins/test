@@ -19,6 +19,9 @@ menu:
   data-science:
     name: Workshop Overview
     weight: 1
+    
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 1
 ---
 
 ## Introduction to Data Science with Stata and R
