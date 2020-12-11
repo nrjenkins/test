@@ -17,7 +17,7 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   data-science:
-    name: Overview
+    name: Workshop Overview
     weight: 1
 ---
 
