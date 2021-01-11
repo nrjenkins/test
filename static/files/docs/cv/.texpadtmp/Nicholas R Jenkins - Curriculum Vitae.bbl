@@ -16,10 +16,14 @@
   {}
 \endgroup
 
+\preamble{%
+\ifdefined\DeclarePrefChars\DeclarePrefChars{'’-}\else\fi%
+}
+
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
-    \entry{jenkins2020c}{article}{}
+    \entry{jenkins2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
            family={Jenkins},
