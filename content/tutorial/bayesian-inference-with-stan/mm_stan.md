@@ -1,5 +1,5 @@
 ---
-title: "Multilevel Modeling in Stan"
+title: Multilevel Modeling in Stan
 linktitle: Pooling, No Pooling, and Partial Pooling
 toc: true
 type: docs

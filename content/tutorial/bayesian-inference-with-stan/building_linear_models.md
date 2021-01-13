@@ -1,13 +1,13 @@
 ---
 title: Building Linear Models
-linktitle: Linear Models
+linktitle: Building Linear Models
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"
 draft: false
 menu:
   stan:
-    parent: The Linear Model
+    parent: Linear Models
     weight: 3
 
 markup: mmark
