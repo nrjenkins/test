@@ -29,7 +29,7 @@ I started out my Bayesian career using JAGS and quickly switched to using [RStan
 
 I searched around for a long time for a good tutorial series on using Stan, but found that most are either too advanced or lack the explanations needed to truly understand what is going on. My goal is to rectify these issues. My primary focus, however on teaching you how to program in Stan and not to teach you about Bayesian methods. I think the tutorial will teach you something about Bayesian methods, but that's just a bonus. 
 
-In this tutorial, I will use [RStan](https://mc-stan.org/rstan/) to interface with Stan through R and will also make frequent use of the [tidyverse](https://www.tidyverse.org). I won't be teaching any R code, so I will assume that you have some basic understanding of how to use R and the tidyverse packages. 
+In this tutorial, I will use [RStan](https://mc-stan.org/rstan/) and [CmdStanR](https://mc-stan.org/cmdstanr/) to interface with Stan through R and will also make frequent use of the [tidyverse](https://www.tidyverse.org). I won't be teaching any R code, so I will assume that you have some basic understanding of how to use R and the tidyverse packages. 
 
 ## What is Stan?
 
