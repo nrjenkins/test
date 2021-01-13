@@ -8,7 +8,7 @@ draft: false
 menu:
   stan:
     parent: Linear Models
-    weight: 2
+    weight: 3
 
 markup: mmark
 
