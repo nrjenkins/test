@@ -8,12 +8,12 @@ draft: false
 menu:
   stan:
     parent: Multilevel Models
-    weight: 10
+    weight: 5
 
 markup: mmark
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 10
+weight: 5
 ---
 
 ```{r include = FALSE}
