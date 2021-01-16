@@ -8,7 +8,7 @@ draft: false
 menu:
   stan:
     parent: Generalized Linear Models
-    weight: 10
+    weight: 40
 
 markup: mmark
 

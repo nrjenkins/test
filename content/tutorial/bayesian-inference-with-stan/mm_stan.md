@@ -8,7 +8,7 @@ draft: false
 menu:
   stan:
     parent: Multilevel Models
-    weight: 1
+    weight: 50
 
 markup: mmark
 
