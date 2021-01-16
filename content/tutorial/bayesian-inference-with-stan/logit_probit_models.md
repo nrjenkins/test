@@ -7,7 +7,7 @@ date: "2019-05-05T00:00:00+01:00"
 draft: false
 menu:
   stan:
-    parent: Part C: Generalized Linear Models
+    parent: Part C Generalized Linear Models
     weight: 40
 
 markup: mmark

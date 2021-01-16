@@ -17,7 +17,7 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   stan:
-    parent: Part A: Introduction
+    parent: Part A Introduction
     weight: 10
 ---
 
