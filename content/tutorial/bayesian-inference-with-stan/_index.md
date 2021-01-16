@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Bayesian Inference Using Stan
 summary: Learn how to use Stan and R to estimate Bayesian models.
-weight: 1
+weight: 10
 
 # Page metadata.
 title: Tutorial Overview
@@ -19,8 +19,6 @@ menu:
   stan:
     parent: Introduction
     weight: 10
-    
-weight: 10
 ---
 
 ## Bayesian Inference with Stan
