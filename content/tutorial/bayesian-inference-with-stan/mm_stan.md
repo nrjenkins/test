@@ -13,7 +13,7 @@ menu:
 markup: mmark
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 5
+weight: 50
 ---
 
 ```{r include = FALSE}

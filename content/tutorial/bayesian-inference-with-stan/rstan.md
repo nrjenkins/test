@@ -8,12 +8,12 @@ draft: false
 menu:
   stan:
     parent: Introduction
-    weight: 2
+    weight: 20
 
 markup: mmark
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 2
+weight: 20
 ---
 
 ## Bayesian Workflow

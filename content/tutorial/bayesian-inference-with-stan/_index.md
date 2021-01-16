@@ -18,7 +18,9 @@ type: docs  # Do not modify.
 menu:
   stan:
     parent: Introduction
-    weight: 1
+    weight: 10
+    
+weight: 10
 ---
 
 ## Bayesian Inference with Stan

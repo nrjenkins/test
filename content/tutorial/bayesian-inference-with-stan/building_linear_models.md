@@ -8,12 +8,12 @@ draft: false
 menu:
   stan:
     parent: Linear Models
-    weight: 1
+    weight: 10
 
 markup: mmark
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 3
+weight: 30
 ---
 
 In this tutorial, we will learn how to estimate linear models using Stan and R. Along the way, we will review the steps in a sound Bayesian workflow. This workflow consists of: 

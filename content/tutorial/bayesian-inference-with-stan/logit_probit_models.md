@@ -8,12 +8,12 @@ draft: false
 menu:
   stan:
     parent: Generalized Linear Models
-    weight: 1
+    weight: 10
 
 markup: mmark
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 4
+weight: 40
 ---
 
 In the last tutorial, we learned how to program and estimate linear models in Stan. In this tutorial, we'll learn how to estimate binary outcome models commonly refered to as Logit and Probit. 
