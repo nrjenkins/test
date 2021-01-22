@@ -23,6 +23,36 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
+    \entry{jenkins2020c}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{fullhash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{bibnamehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{authorbibnamehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{authornamehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{authorfullhash}{e5b5be03b9878776e4abdad083383f64}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SocArXiv}
+      \field{month}{4}
+      \field{title}{Transparency or {{Deception}}? {{How Rejecting PAC Contributions Affects Contribution Patterns}}}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.31235/osf.io/cf3jn
+      \endverb
+    \endentry
     \entry{jenkins2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
@@ -66,6 +96,38 @@
       \verb{doi}
       \verb 10.30636/jbpa.32.111
       \endverb
+    \endentry
+    \entry{jenkins2020b}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1addac4ec09a1735cb6b088b0ab024d6}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Alexander\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e40b1cf05b6172a26322754a0209a615}
+      \strng{fullhash}{e40b1cf05b6172a26322754a0209a615}
+      \strng{bibnamehash}{e40b1cf05b6172a26322754a0209a615}
+      \strng{authorbibnamehash}{e40b1cf05b6172a26322754a0209a615}
+      \strng{authornamehash}{e40b1cf05b6172a26322754a0209a615}
+      \strng{authorfullhash}{e40b1cf05b6172a26322754a0209a615}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Are {{Student Debtors}} a {{Subconstituency}}? {{The Effect}} of {{Student Loans}} on {{Issue Voting}}}
+      \field{year}{2020}
+      \field{dateera}{ce}
     \endentry
     \entry{meyer2019}{article}{}
       \name{author}{2}{}{%
