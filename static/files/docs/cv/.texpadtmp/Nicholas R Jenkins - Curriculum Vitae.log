@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  15 JAN 2021 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 JAN 2021 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -276,60 +276,64 @@ Package: graphbox 2018/01/17 v1.1 extension for graphicx to adjust containing bo
 \Gin@box@hspace=\skip74
 \Gin@box@bwidth=\skip75
 \Gin@box@bheight=\skip76
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count266
+\cp@tempcnt=\count267
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty
 Package: biblatex-chicago 2018/01/10 v 3.10 biblatex style
  (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count266
+\etb@tempcnta=\count268
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count267
+\lrq@indent=\count269
  (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count268
-\c@listtotal=\count269
-\c@listcount=\count270
-\c@liststart=\count271
-\c@liststop=\count272
-\c@citecount=\count273
-\c@citetotal=\count274
-\c@multicitecount=\count275
-\c@multicitetotal=\count276
-\c@instcount=\count277
-\c@maxnames=\count278
-\c@minnames=\count279
-\c@maxitems=\count280
-\c@minitems=\count281
-\c@citecounter=\count282
-\c@maxcitecounter=\count283
-\c@savedcitecounter=\count284
-\c@uniquelist=\count285
-\c@uniquename=\count286
-\c@refsection=\count287
-\c@refsegment=\count288
-\c@maxextratitle=\count289
-\c@maxextratitleyear=\count290
-\c@maxextraname=\count291
-\c@maxextradate=\count292
-\c@maxextraalpha=\count293
-\c@abbrvpenalty=\count294
-\c@highnamepenalty=\count295
-\c@lownamepenalty=\count296
-\c@maxparens=\count297
-\c@parenlevel=\count298
-\blx@tempcnta=\count299
-\blx@tempcntb=\count300
-\blx@tempcntc=\count301
-\blx@maxsection=\count302
-\blx@maxsegment@0=\count303
-\blx@notetype=\count304
-\blx@parenlevel@text=\count305
-\blx@parenlevel@foot=\count306
-\blx@sectionciteorder@0=\count307
-\blx@entrysetcounter=\count308
+\c@tabx@nest=\count270
+\c@listtotal=\count271
+\c@listcount=\count272
+\c@liststart=\count273
+\c@liststop=\count274
+\c@citecount=\count275
+\c@citetotal=\count276
+\c@multicitecount=\count277
+\c@multicitetotal=\count278
+\c@instcount=\count279
+\c@maxnames=\count280
+\c@minnames=\count281
+\c@maxitems=\count282
+\c@minitems=\count283
+\c@citecounter=\count284
+\c@maxcitecounter=\count285
+\c@savedcitecounter=\count286
+\c@uniquelist=\count287
+\c@uniquename=\count288
+\c@refsection=\count289
+\c@refsegment=\count290
+\c@maxextratitle=\count291
+\c@maxextratitleyear=\count292
+\c@maxextraname=\count293
+\c@maxextradate=\count294
+\c@maxextraalpha=\count295
+\c@abbrvpenalty=\count296
+\c@highnamepenalty=\count297
+\c@lownamepenalty=\count298
+\c@maxparens=\count299
+\c@parenlevel=\count300
+\blx@tempcnta=\count301
+\blx@tempcntb=\count302
+\blx@tempcntc=\count303
+\blx@maxsection=\count304
+\blx@maxsegment@0=\count305
+\blx@notetype=\count306
+\blx@parenlevel@text=\count307
+\blx@parenlevel@foot=\count308
+\blx@sectionciteorder@0=\count309
+\blx@entrysetcounter=\count310
 \labelnumberwidth=\skip77
 \labelalphawidth=\skip78
 \biblabelsep=\skip79
@@ -341,9 +345,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language86
-\c@mincomprange=\count309
-\c@maxcomprange=\count310
-\c@mincompwidth=\count311
+\c@mincomprange=\count311
+\c@maxcomprange=\count312
+\c@mincompwidth=\count313
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -353,74 +357,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'chicago-authordate.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count312
-\c@savedafterword=\count313
-\c@annotator=\count314
-\c@savedannotator=\count315
-\c@author=\count316
-\c@savedauthor=\count317
-\c@bookauthor=\count318
-\c@savedbookauthor=\count319
-\c@commentator=\count320
-\c@savedcommentator=\count321
-\c@editor=\count322
-\c@savededitor=\count323
-\c@editora=\count324
-\c@savededitora=\count325
-\c@editorb=\count326
-\c@savededitorb=\count327
-\c@editorc=\count328
-\c@savededitorc=\count329
-\c@foreword=\count330
-\c@savedforeword=\count331
-\c@holder=\count332
-\c@savedholder=\count333
-\c@introduction=\count334
-\c@savedintroduction=\count335
-\c@namea=\count336
-\c@savednamea=\count337
-\c@nameb=\count338
-\c@savednameb=\count339
-\c@namec=\count340
-\c@savednamec=\count341
-\c@translator=\count342
-\c@savedtranslator=\count343
-\c@shortauthor=\count344
-\c@savedshortauthor=\count345
-\c@shorteditor=\count346
-\c@savedshorteditor=\count347
-\c@labelname=\count348
-\c@savedlabelname=\count349
-\c@institution=\count350
-\c@savedinstitution=\count351
-\c@lista=\count352
-\c@savedlista=\count353
-\c@listb=\count354
-\c@savedlistb=\count355
-\c@listc=\count356
-\c@savedlistc=\count357
-\c@listd=\count358
-\c@savedlistd=\count359
-\c@liste=\count360
-\c@savedliste=\count361
-\c@listf=\count362
-\c@savedlistf=\count363
-\c@location=\count364
-\c@savedlocation=\count365
-\c@organization=\count366
-\c@savedorganization=\count367
-\c@origlocation=\count368
-\c@savedoriglocation=\count369
-\c@origpublisher=\count370
-\c@savedorigpublisher=\count371
-\c@publisher=\count372
-\c@savedpublisher=\count373
-\c@language=\count374
-\c@savedlanguage=\count375
-\c@origlanguage=\count376
-\c@savedoriglanguage=\count377
-\c@pageref=\count378
-\c@savedpageref=\count379
+\c@afterword=\count314
+\c@savedafterword=\count315
+\c@annotator=\count316
+\c@savedannotator=\count317
+\c@author=\count318
+\c@savedauthor=\count319
+\c@bookauthor=\count320
+\c@savedbookauthor=\count321
+\c@commentator=\count322
+\c@savedcommentator=\count323
+\c@editor=\count324
+\c@savededitor=\count325
+\c@editora=\count326
+\c@savededitora=\count327
+\c@editorb=\count328
+\c@savededitorb=\count329
+\c@editorc=\count330
+\c@savededitorc=\count331
+\c@foreword=\count332
+\c@savedforeword=\count333
+\c@holder=\count334
+\c@savedholder=\count335
+\c@introduction=\count336
+\c@savedintroduction=\count337
+\c@namea=\count338
+\c@savednamea=\count339
+\c@nameb=\count340
+\c@savednameb=\count341
+\c@namec=\count342
+\c@savednamec=\count343
+\c@translator=\count344
+\c@savedtranslator=\count345
+\c@shortauthor=\count346
+\c@savedshortauthor=\count347
+\c@shorteditor=\count348
+\c@savedshorteditor=\count349
+\c@labelname=\count350
+\c@savedlabelname=\count351
+\c@institution=\count352
+\c@savedinstitution=\count353
+\c@lista=\count354
+\c@savedlista=\count355
+\c@listb=\count356
+\c@savedlistb=\count357
+\c@listc=\count358
+\c@savedlistc=\count359
+\c@listd=\count360
+\c@savedlistd=\count361
+\c@liste=\count362
+\c@savedliste=\count363
+\c@listf=\count364
+\c@savedlistf=\count365
+\c@location=\count366
+\c@savedlocation=\count367
+\c@organization=\count368
+\c@savedorganization=\count369
+\c@origlocation=\count370
+\c@savedoriglocation=\count371
+\c@origpublisher=\count372
+\c@savedorigpublisher=\count373
+\c@publisher=\count374
+\c@savedpublisher=\count375
+\c@language=\count376
+\c@savedlanguage=\count377
+\c@origlanguage=\count378
+\c@savedoriglanguage=\count379
+\c@pageref=\count380
+\c@savedpageref=\count381
 \shorthandwidth=\skip85
 \shortjournalwidth=\skip86
 \shortserieswidth=\skip87
@@ -444,19 +448,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count380
-\c@textcitetotal=\count381
-\c@textcitemaxnames=\count382
-\c@biburlbigbreakpenalty=\count383
-\c@biburlbreakpenalty=\count384
-\c@biburlnumpenalty=\count385
-\c@biburlucpenalty=\count386
-\c@biburllcpenalty=\count387
+\c@textcitecount=\count382
+\c@textcitetotal=\count383
+\c@textcitemaxnames=\count384
+\c@biburlbigbreakpenalty=\count385
+\c@biburlbreakpenalty=\count386
+\c@biburlnumpenalty=\count387
+\c@biburlucpenalty=\count388
+\c@biburllcpenalty=\count389
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count388
+\c@smartand=\count390
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -469,8 +473,8 @@ Package biblatex Info: ... file 'chicago-authordate.bbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.bbx
 File: chicago-authordate.bbx 2018/01/11 v 3.10 biblatex bibliography style
 \lositemsep=\skip99
-\c@bbx:relatedcount=\count389
-\c@bbx:relatedtotal=\count390
+\c@bbx:relatedcount=\count391
+\c@bbx:relatedtotal=\count392
 )
 Package biblatex Info: Trying to load citation style 'chicago-authordate'...
 Package biblatex Info: ... file 'chicago-authordate.cbx' found.
@@ -499,31 +503,31 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )))
-\@quotelevel=\count391
-\@quotereset=\count392
+\@quotelevel=\count393
+\@quotereset=\count394
  (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count393
+\l__kernel_color_stack_int=\count395
 \l__pdf_internal_box=\box51
 ) (/Users/nickjenkins/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.aux)
 \openout1 = `"Nicholas R Jenkins - Curriculum Vitae.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -560,7 +564,7 @@ LaTeX Font Info:    ... okay on input line 128.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring ON on input line 128.
+Package hyperref Info: Link coloring ON on input line 130.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -568,23 +572,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count394
+\c@section@level=\count396
 )
-LaTeX Info: Redefining \ref on input line 128.
-LaTeX Info: Redefining \pageref on input line 128.
-LaTeX Info: Redefining \nameref on input line 128.
+LaTeX Info: Redefining \ref on input line 130.
+LaTeX Info: Redefining \pageref on input line 130.
+LaTeX Info: Redefining \nameref on input line 130.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count395
+\scratchcounter=\count397
 \scratchdimen=\dimen157
 \scratchbox=\box53
-\nofMPsegments=\count396
-\nofMParguments=\count397
+\nofMPsegments=\count398
+\nofMParguments=\count399
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count398
+\MPscratchCnt=\count400
 \MPscratchDim=\dimen158
-\MPnumerator=\count399
-\makeMPintoPDFobject=\count400
+\MPnumerator=\count401
+\makeMPintoPDFobject=\count402
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -618,136 +622,146 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Nicholas R Jenkins - Curriculum Vitae".bbl' found.
  (/Users/nickjenkins/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.bbl)
-Package biblatex Info: Reference section=0 on input line 128.
-Package biblatex Info: Reference segment=0 on input line 128.
+Package biblatex Info: Reference section=0 on input line 130.
+Package biblatex Info: Reference segment=0 on input line 130.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 143.
+(Font)              <7> on input line 145.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 143.
+(Font)              <5> on input line 145.
 
-Overfull \hbox (9.997pt too wide) in paragraph at lines 143--147
+Overfull \hbox (9.997pt too wide) in paragraph at lines 145--149
 [][] 
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 141--154
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 143--156
 [][] [] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
-(Font)              using `OT1/cmr/m/it' instead on input line 178.
+(Font)              using `OT1/cmr/m/it' instead on input line 167.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 200.
+
+
+Overfull \hbox (1.51083pt too wide) in paragraph at lines 203--204
+[][] 
+ []
+
+
+Overfull \hbox (1.51083pt too wide) in paragraph at lines 204--205
+[][] 
+ []
 
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 243.
-
-
-Overfull \hbox (1.51083pt too wide) in paragraph at lines 246--247
-[][] 
- []
-
-
-Overfull \hbox (1.51083pt too wide) in paragraph at lines 247--248
-[][] 
- []
-
-<github.png, id=33, 1290.8225pt x 1267.73625pt>
+<github.png, id=36, 1290.8225pt x 1267.73625pt>
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 267.
+Package pdftex.def Info: github.png  used on input line 318.
 (pdftex.def)             Requested size: 7.93762pt x 7.79993pt.
-<PDF.jpg, id=38, 259.97125pt x 114.4275pt>
+<PDF.jpg, id=39, 259.97125pt x 114.4275pt>
 File: PDF.jpg Graphic file (type jpg)
 <use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 292.
+Package pdftex.def Info: PDF.jpg  used on input line 323.
 (pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
 File: PDF.jpg Graphic file (type jpg)
 <use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 297.
+Package pdftex.def Info: PDF.jpg  used on input line 328.
 (pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 297.
+Package pdftex.def Info: github.png  used on input line 328.
 (pdftex.def)             Requested size: 7.93762pt x 7.79993pt.
+ [2 <./github.png> <./PDF.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 310.
+(Font)              <8> on input line 335.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 310.
-[2 <./github.png> <./PDF.jpg>] [3]
-<certificate2.png, id=93, 513.92pt x 513.92pt>
+(Font)              <6> on input line 335.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 359.
+
+Overfull \vbox (1.31157pt too high) has occurred while \output is active []
+
+ [3]
+<certificate2.png, id=92, 513.92pt x 513.92pt>
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 441.
+Package pdftex.def Info: certificate2.png  used on input line 450.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 446.
+Package pdftex.def Info: certificate2.png  used on input line 455.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
  [4 <./certificate2.png>]
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 458.
+Package pdftex.def Info: certificate2.png  used on input line 467.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 469.
+Package pdftex.def Info: certificate2.png  used on input line 478.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
-<grades.png, id=104, 513.92pt x 513.92pt>
+<grades.png, id=103, 513.92pt x 513.92pt>
 File: grades.png Graphic file (type png)
 <use grades.png>
-Package pdftex.def Info: grades.png  used on input line 469.
+Package pdftex.def Info: grades.png  used on input line 478.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 474.
+Package pdftex.def Info: certificate2.png  used on input line 483.
 (pdftex.def)             Requested size: 11.99791pt x 12.0pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 520--524
+Underfull \hbox (badness 10000) in paragraph at lines 501--505
 
  []
 
 [5 <./grades.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
 
- []
+LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
+(Font)              using `OT1/cmr/m/it' instead on input line 544.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 526.
-[6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 526.
+<website.png, id=119, 12.045pt x 12.045pt>
+File: website.png Graphic file (type png)
+<use website.png>
+Package pdftex.def Info: website.png  used on input line 544.
+(pdftex.def)             Requested size: 11.99991pt x 12.0pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 547.
+[6 <./website.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 547.
  (/Users/nickjenkins/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 526.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 526.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 547.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 547.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to '"Nicholas R Jenkins - Curriculum Vitae".run.xml'.
 \openout1 = `"Nicholas R Jenkins - Curriculum Vitae.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 526.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 547.
  ) 
 Here is how much of TeX's memory you used:
- 15936 strings out of 480608
- 282254 string characters out of 5903631
- 1215975 words of memory out of 5000000
- 31597 multiletter control sequences out of 15000+600000
- 538467 words of font info for 44 fonts, out of 8000000 for 9000
+ 15988 strings out of 480608
+ 283058 string characters out of 5903631
+ 1215789 words of memory out of 5000000
+ 31642 multiletter control sequences out of 15000+600000
+ 538696 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,12n,69p,1303b,4001s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on "/Users/nickjenkins/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.pdf" (6 pages, 309653 bytes).
+ 50i,11n,69p,1303b,4001s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb>
+Output written on "/Users/nickjenkins/Documents/website/static/files/docs/cv/.texpadtmp/Nicholas R Jenkins - Curriculum Vitae.pdf" (6 pages, 330209 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

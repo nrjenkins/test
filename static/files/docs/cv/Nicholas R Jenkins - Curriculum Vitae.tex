@@ -15,6 +15,7 @@ anchorcolor=green, urlcolor=blue!60!black ]{hyperref}
 \usepackage{bookmark}
 \usepackage{etaremune}
 \usepackage{graphbox}
+\usepackage{changepage}   % for the adjustwidth environment
 
 
 % Bibliography Setup %
@@ -28,11 +29,11 @@ anchorcolor=green, urlcolor=blue!60!black ]{hyperref}
 {\slimentry{#1}{#2}}{
 
 \begin{minipage}[t]{.145\textwidth}
-\hfill \textsc{#1}
+\flushright \textsc{#1}
 \end{minipage}
 \hfill\vline\hfill
 \begin{minipage}[t]{.82\textwidth}
-{\bf#2}\\\textit{#3}. \footnotesize{#4}
+{\bf#2}\\\textit{#3}. \small{#4}
 \end{minipage}\\
 \vspace{.25cm}
 }}
@@ -74,7 +75,7 @@ anchorcolor=green, urlcolor=blue!60!black ]{hyperref}
 {#1}. \footnotesize{#2} \medskip
 \end{minipage}\\
 \begin{minipage}[t]{\linewidth}
-\hspace{0.5cm} \textit{\small{#3}}
+\hspace{0.5cm} \textit{{#3}}
 \end{minipage}
 }
 
@@ -94,6 +95,7 @@ anchorcolor=green, urlcolor=blue!60!black ]{hyperref}
 \newcommand{\gh}{\includegraphics[align=c, height=.65\baselineskip]{github.png}}
 \newcommand{\cert}{\includegraphics[align=c, height=1\baselineskip]{certificate2.png}}
 \newcommand{\grades}{\includegraphics[align=c, height=1\baselineskip]{grades.png}}
+\newcommand{\website}{\includegraphics[align=c, height=1\baselineskip]{website.png}}
 
 \newcommand{\vcenteredinclude}[1]{\begingroup
 \setbox0=\hbox{\includegraphics[height=.65\baselineskip]{#1}}%
@@ -154,43 +156,56 @@ anchorcolor=green, urlcolor=blue!60!black ]{hyperref}
 
 \vspace{.35cm}
 
-% Research Interests %
-
-
-\vspace{.25cm}
-
-\section{Academic Positions}
-
-\entry{Spring 2020 -- Present}
-			{Master of Public Policy Capstone Project Consultant}
-			{\ucr}
-			{I was hired by the School of Public Policy as a quantative methods consultant for Master of Public Policy students' capstone projects.}
-
-
 % Education %
 \section{Education}
 
 \medskip
 
 \entry{\emph{In Progress}}
-			{Doctor of Philosophy, Political Science}
+			{Ph.D., Political Science}
 			{\ucr}
 			{Dissertation Committee: Kevin Esterling (Chair), \href{https://sites.google.com/site/melindaritchie/}{Melinda Ritchie}, \href{https://sites.google.com/view/nicholas-weller}{Nick Weller}, and \href{http://www.indridason.politicaldata.org}{Indridi Indridason}}
 			
 \entry{2020}
-			{Master of Arts, Political Science}
+			{M.A., Political Science}
 			{\ucr}
 			{Specialized in American politics.}
 			
 \entry{2017}
-			{Master of Arts, Economics}
+			{M.A., Economics}
 			{\csulb}
 			{Specialized in international finance, economic development, and labor economics.}
 			
 \entry{2015}
-			{Bachelor of Arts, Business Administration}
+			{B.A., Business Administration}
 			{\csuf}
 			{Major in Accounting; minor in Economics.}
+
+\vspace{.25cm}
+
+
+% Academic Positions %
+\section{Professional Appointments}
+
+\entry{Spring 2020 -- Present}
+			{Master of Public Policy Capstone Project Quantitative Consultant}
+			{\ucr}
+			{I was hired by the School of Public Policy as a quantitate methods consultant for Master of Public Policy students' capstone projects.}
+			
+% Publications %
+\section{Publications}
+
+\medskip
+
+\textbf{\textsc{Refereed Journal Articles}}
+
+\begin{etaremune}
+	\item \pub{\fullcite{jenkins2020}}{}{}
+	\item \pub{\fullcite{meyer2019}}{}{}
+\end{etaremune}
+
+%\textbf{\textsc{Manuscripts in Preparation}}
+
 
 \vspace{.25cm}
 
@@ -233,43 +248,25 @@ anchorcolor=green, urlcolor=blue!60!black ]{hyperref}
 
 \vspace{.25cm}
 
-% Research %
-\section{Research}
 
-For current research projects, see my website \href{https://nicholasrjenkins.science/#publications}{nicholasrjenkins.science}.
-
-\medskip
-
-\textbf{\textsc{Peer-Reviewed Publications}}
-
-\begin{etaremune}
-	\item \pub{\fullcite{jenkins2020}}{}{}
-	\item \pub{\fullcite{meyer2019}}{}{}
-\end{etaremune}
-
-%\nocite{meyer_what_nodate}
-%\nocite{jenkins_determinants_2015}
-%\printbibliography[heading=none]
-
-\vspace{.25cm}
-
+% Invited Talks %
+%\section{Invited Talks}
 
 % Conference Presentations %
-\section{Conference Presentations and Workshops}
-
-In addition to these presentations and workshops, be sure to look through the tutorials that I've written for my website here: \href{https://nicholasrjenkins.science/tutorial/}{https://nicholasrjenkins.science/tutorial}.
+\section{Conference Participation and Workshops}
 
 \medskip
 
-\entry{Fall 2020}
-			{Data Science using Stata and R \href{https://github.com/nrjenkins/Data-Science-Workshop}{\gh}}
-			{\ucr}
-			{Created and taught a 6-week workshop for the Master of Public Policy program to introduce the graduate students to the basics of data science using Stata and R.}
+%\textbf{\textsc{Conferences Organized}}
 
-\entry{2020}
-			{Teaching for Student Learning (with \href{https://www.michelangelo.mx}{Michelangelo Landgrave})}
-			{\ucr}
-			{Presented on how to use active learning techniques in the classroom during the \href{https://gsrc.ucr.edu/aftergrad/tcw}{Teaching Development Day}.}
+
+%\textbf{\textsc{Panels Organized}}
+
+
+
+\textbf{\textsc{Papers Presented}}
+
+\bigskip
 
 \entry{2020}
 			{Transparency or Deception? How Rejecting PAC Contributions Affects Contribution Patterns}
@@ -286,6 +283,40 @@ In addition to these presentations and workshops, be sure to look through the tu
 			{Accepted (Conference Canceled) at the Western Political Science Association Annual Meeting, Los Angeles, CA}
 			{}
 			
+%\textbf{\textsc{Discussant}}
+
+%In addition to these presentations and workshops, be sure to look through the tutorials that I've written for my website here: \href{https://nicholasrjenkins.science/tutorial/}{https://nicholasrjenkins.science/tutorial}.
+
+\vspace{.25cm}
+
+
+% Campus Talks %
+\section{Campus Talks}
+
+\medskip
+
+\entry{2020}
+			{Teaching for Student Learning (with \href{https://www.michelangelo.mx}{Michelangelo Landgrave})}
+			{\ucr}
+			{Presented on how to use active learning techniques in the classroom during the \href{https://gsrc.ucr.edu/aftergrad/tcw}{Teaching Development Day}.}
+
+\vspace{.25cm}
+
+
+% Teaching Experience %
+\section{Teaching Experience}
+
+\medskip
+
+\textbf{\textsc{Workshops Taught}}
+
+\bigskip
+
+\entry{Fall 2020}
+			{Data Science using Stata and R \href{https://github.com/nrjenkins/Data-Science-Workshop}{\gh}}
+			{\ucr}
+			{Created and taught a 6-week workshop for the Master of Public Policy program to introduce the graduate students to the basics of data science using Stata and R.}
+			
 \entry{2017}
 			{M.A. in Economics Math Review \href{https://nrjenkins.github.io/nrjenkins.github.io/files/tutorials/math_tutorial.pdf}{\pdf}}
 			{\csulb}
@@ -299,37 +330,44 @@ In addition to these presentations and workshops, be sure to look through the tu
 			{Intermediate Micro/Macroeconomics Math Review Session}
 			{\csulb}
 
-\vspace{.25cm}
-
-
-% Teaching Experience %
-\section{Relevant Teaching Experience}
-
 \medskip
 
 \textbf{\textsc{Teaching Assistant}\footnote{Scores calculated using the following item: \textit{Overall, is an effective teacher.}}}
 
-\medskip
+\bigskip
 
-\entry{Fall 2020}
-			{American Politics (Online)}
+\entry{Fall 2020 Winter 2018 Fall 2018}
+			{American Politics}
 			{\ucr}
 			{An introduction to the principles and practices of government. Focuses on the policy process and selected political issues in the United States.
 			\begin{description}
-				\item Section 24: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section24_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.83/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section24_Comments.pdf}{Student Feedback}.
-				\item Section 26: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section26_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.78/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section26_Comments.pdf}{Student Feedback}.
-				\item Section 32: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section32_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.33/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section32_Comments.pdf}{Student Feedback}.
+				\item \underline{Fall 2020 (Online) Evaluations:}
+				\item Section 1: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section24_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.83/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section24_Comments.pdf}{Student Feedback}.
+				\item Section 2: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section26_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.78/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section26_Comments.pdf}{Student Feedback}.
+				\item Section 3: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section32_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.33/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section32_Comments.pdf}{Student Feedback}.
+				\item (Mean Department Rating: 6.60, Mean Campus Rating: 6.38)
+				\item \underline{Winter 2018 Evaluations:}
+				\item Section 1: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section24_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.75/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section24_Comments.pdf}{Student Feedback},
+				\item Section 2: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section25_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.80/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section25_Comments.pdf}{Student Feedback}.
+				\item Section 3: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section26_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.54/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section26_Comments.pdf}{Student Feedback}.
+				\item (Mean Department Rating: 6.42, Mean Campus Rating: 6.21)
+				\item \underline{Fall 2018 Evaluations:}
+				\item Section 1: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section24_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.83/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section24_Comments.pdf}{Student Feedback}.
+				\item Section 2: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section26_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.78/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section26_Comments.pdf}{Student Feedback}.
+				\item Section 3: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section32_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.33/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall20_Section32_Comments.pdf}{Student Feedback}.
 				\item (Mean Department Rating: 6.60, Mean Campus Rating: 6.38)
 			\end{description}}
+
+
 
 \entry{Spring 2020}
 			{Theory and Methodology of Political Science (Online)}
 			{\ucr}
 			{This course will lay out the enterprise of empirical research: the structure and content of theories, the formulation of testable hypotheses, and the processes of generating and gathering data. Then discuss how to examine these data, as well as the logic of empirical tests, the evaluation of relationships between two variables, the consideration of competing hypotheses, and the strengths and weaknesses of alternative research designs. Finally, we explore some of the most common statistical tools that political scientists use to answer empirical questions, focusing on how multiple regression analysis and experiments can be used to identify causal relationships and answer questions about the political world.
 			\begin{description}
-				\item Section 21: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section21_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.57/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section21_Comments.pdf}{Student Feedback}.
-				\item Section 22: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section22_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.91/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section22_Comments.pdf}{Student Feedback}.
-				\item Section 23: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section23_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.78/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section23_Comments.pdf}{Student Feedback}.
+				\item Section 1: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section21_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.57/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section21_Comments.pdf}{Student Feedback}.
+				\item Section 2: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section22_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.91/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section22_Comments.pdf}{Student Feedback}.
+				\item Section 3: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section23_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.78/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC114_Spring20_Section23_Comments.pdf}{Student Feedback}.
 				\item (Mean Department Rating: 6.32, Mean Campus Rating: 6.29)
 			\end{description}}
 
@@ -338,31 +376,8 @@ In addition to these presentations and workshops, be sure to look through the tu
 			{\ucr}
 			{This class focuses on statistical methods for policy evaluation, that is, the methods one can use to understand the impact of an intervention such as a policy or government program. This course introduces the potential outcomes framework for causal inference and design based causal inference techniques including randomized control trials, regression discontinuity designs, difference-in-difference estimation, and instrumental variables regression.
 			\begin{description}
-				\item Section 21: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/PBPL220_Winter20_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.84/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/PBPL220_Winter20_Comments.pdf}{Student Feedback}.
+				\item Section 1: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/PBPL220_Winter20_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.84/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/PBPL220_Winter20_Comments.pdf}{Student Feedback}.
 				\item (Mean Department Rating: 6.32, Mean Campus Rating: 6.28)
-			\end{description}}
-
-\entry{Winter 2019}
-			{American Politics}
-			{\ucr}
-			{An introduction to the principles and practices of government. Focuses on the policy process and selected political issues in the United States.
-			\begin{description}
-				\item Section 24: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section24_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.75/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section24_Comments.pdf}{Student Feedback},
-				\item Section 25: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section25_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.80/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section25_Comments.pdf}{Student Feedback}.
-				\item Section 26: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section26_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.54/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Winter19_Section26_Comments.pdf}{Student Feedback}.
-				\item (Mean Department Rating: 6.42, Mean Campus Rating: 6.21)
-			\end{description}}
-			
-
-\entry{Fall 2018}
-			{American Politics}
-			{\ucr}
-			{An introduction to the principles and practices of government. Focuses on the policy process and selected political issues in the United States.
-			\begin{description}
-				\item Section 22: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section22_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.78/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section22_Comments.pdf}{Student Feedback}.
-				\item Section 25: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section25_Scores.pdf}{Median Rating: 7.00/7.00, Mean Rating: 6.78/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section25_Comments.pdf}{Student Feedback}.
-				\item Section 31: \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section31_Scores.pdf}{Median Rating: 6.00/7.00, Mean Rating: 5.80/7.00}, \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/POSC010_Fall18_Section31_Comments.pdf}{Student Feedback}.
-				\item (Mean Department Rating: 6.48, Mean Campus Rating: 6.19)
 			\end{description}}
 			
 \entry{Spring 2017}
@@ -373,12 +388,19 @@ In addition to these presentations and workshops, be sure to look through the tu
 				\item \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ420_Teaching_Evaluations_Spring2017.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.71/6.00}
 			\end{description}}
 
-\entry{Spring 2017}
+\entry{Spring 2017 Fall 2016 Spring 2016 Fall 2015}
 			{Economic Statistics Lab}
 			{\csulb}
 			{Use of descriptive and inferential statistical concepts for the analysis of economic data. Topics include measures of central tendency and dispersion, probability theory, discrete and continuous probability distributions, hypothesis testing, regression and correlation analysis.
 			\begin{description}
+				\item \underline{Spring 2017 Evaluations:}
 				\item \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Spring2017.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.66/6.00}
+				\item \underline{Fall 2016 Evaluations:}
+				\item \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Fall2016.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.34/6.00}
+				\item \underline{Spring 2016 Evaluations:}
+				\item \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Spring2016.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.88/6.00}
+				\item \underline{Fall 2015 Evaluations:}
+				\item \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Fall2015.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.89/6.00} 
 			\end{description}}
 			
 \entry{Spring 2017}
@@ -386,7 +408,7 @@ In addition to these presentations and workshops, be sure to look through the tu
 			{\csulb}
 			{Determinants of levels of income, employment, and prices; of secular and cyclical changes in economic activity; and of the effects of public policies upon aggregative economic experience.}
 			
-\entry{2016}
+\entry{Spring 2016 Fall 2016}
 			{Intermediate Microeconomics}
 			{\csulb}
 			{Analysis of economic concepts and their applications to business situations. Emphasis on supply and demand analysis, costs of production, variations of competition and monopoly, revenues, prices, profits and losses, and other aspects of the operations of the business enterprise.}
@@ -399,36 +421,23 @@ In addition to these presentations and workshops, be sure to look through the tu
 				\item \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ485_Teaching_Evaluations_Fall2016.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.61/6.00}
 			\end{description}}
 
-\entry{Fall 2016}
-			{Economic Statistics Lab}
-			{\csulb}
-			{Use of descriptive and inferential statistical concepts for the analysis of economic data. Topics include measures of central tendency and dispersion, probability theory, discrete and continuous probability distributions, hypothesis testing, regression and correlation analysis.
-			\begin{description}
-				\item \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Fall2016.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.34/6.00} 
-			\end{description}}
-
-\entry{Spring 2016}
-			{Economic Statistics Lab}
-			{\csulb}
-			{Use of descriptive and inferential statistical concepts for the analysis of economic data. Topics include measures of central tendency and dispersion, probability theory, discrete and continuous probability distributions, hypothesis testing, regression and correlation analysis.
-			\begin{description}
-				\item \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Spring2016.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.88/6.00}
-			\end{description}}
-
-\entry{Fall 2015}
-			{Economic Statistics Lab}
-			{\csulb}
-			{Use of descriptive and inferential statistical concepts for the analysis of economic data. Topics include measures of central tendency and dispersion, probability theory, discrete and continuous probability distributions, hypothesis testing, regression and correlation analysis.
-			\begin{description}
-				\item \href{https://nrjenkins.github.io/nrjenkins.github.io/files/docs/teaching_evals/Econ380_Teaching_Evaluations_Fall2015.pdf}{Median Rating: 6.00/6.00, Mean Rating: 5.89/6.00} 
-			\end{description}}
-
-\entry{2015 - 2017}
-			{Principles of Microeconomics}
-			{\csulb}
-			{Business organization, price theory, allocation of resources, distribution of income, public economy.}
-
 \vspace{.25cm}
+
+
+% Service to the Profession %
+%\section{Service to the Profession}
+
+
+% Departmental and University Service %
+%\section{Departmental and University Service}
+
+
+% Professional Memberships %
+%\section{Professional Memberships}
+
+
+% References %
+%\section{References}
 
 
 % Additional Training %
@@ -461,11 +470,11 @@ In addition to these presentations and workshops, be sure to look through the tu
 			{Inter-university Consortium for Political and Social Research (ICPSR) Summer Program in Quantitative Methods of Social Research \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Participation_Verification.pdf}{\cert} \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Grades.pdf}{\grades}}
 			{University of Michigan, Ann Arbor}
 			{The \href{https://www.icpsr.umich.edu/icpsrweb/content/sumprog/about.html}{ICPSR Summer Program} provides rigorous, hands-on training in statistical techniques, research methodologies, and data analysis. ICPSR Summer Program courses emphasize the integration of methodological strategies with the theoretical and practical concerns that arise in research on substantive issues. I completed the following courses: 
-			\begin{itemize}
+			\begin{description}
 				\item Bayesian Modeling for the Social Sciences I
 				\item Multilevel Models I: Introduction and Application
 				\item Mathematics for Social Scientists III
-			\end{itemize}
+			\end{description}
 Please click \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Participation_Verification.pdf}{here} to view my certificate of completion and click \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Grades.pdf}{here} to view the grades I received.} 
 
 \entry{2017}
@@ -480,6 +489,21 @@ Please click \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Participation
 
 \vspace{.25cm}
 
+
+% Software and Programming %
+\section{Software and Programming Knowledge}
+
+\medskip
+
+\entry{Languages}
+			{R, Stan, JAGS, BUGS, \LaTeX, HTML}
+			{}
+		
+\entry{Programs}
+			{RStudio, STATA, EViews}
+			{}
+
+\vspace{.25cm}
 
 % Coursework %
 \section{Relevant Coursework}
@@ -508,19 +532,16 @@ Please click \href{https://nrjenkins.github.io/files/docs/cv/ICPSR_Participation
 			{Calculus I, Calculus II, Calculus III, Linear Algebra, Mathematics for Social Scientists III}
 			{}
 
+\vspace{.25cm}
 
-% Software and Programming %
-\section{Software and Programming Knowledge}
 
-\medskip
+% Tutorials %
+\section{Online Tutorials}
 
-\entry{Languages}
-			{R, Stan, JAGS, BUGS, \LaTeX, HTML}
-			{}
-		
-\entry{Programs}
-			{RStudio, STATA, EViews}
-			{}
+\entry{\textit{In Progress}}
+			{Bayesian Inference Using R and Stan \href{https://nicholasrjenkins.science/tutorial/bayesian-inference-with-stan/}{\website}}
+			{\href{https://nicholasrjenkins.science/tutorial/bayesian-inference-with-stan/}{https://nicholasrjenkins.science/tutorial/bayesian-inference-with-stan/}}
+			{I am working on a series of tutorials that teach users how to program Bayesian models in Stan and how to use R for a Bayesian workflow.}
 			
 
 \end{document}
