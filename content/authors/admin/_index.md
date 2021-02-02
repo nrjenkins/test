@@ -18,13 +18,16 @@ organizations:
   url: "https://www.ucr.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My primary research interests are in Congress, interest groups and lobbying, and representation
+bio: I am a political scientist interested in using quantitative research methods to solve complex social science problems. 
 
 interests:
+- Quantitative Research Design
+- Causal Inference
+- Bayesian Methods
+- Policy Evaluation
 - Congress
 - Interest Groups and Lobbying
 - Representation
-- Bayesian Methods
 
 education:
   courses:
