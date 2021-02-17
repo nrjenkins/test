@@ -23,7 +23,7 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
-    \entry{jenkins2020c}{article}{}
+    \entry{jenkinsc}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
            family={Jenkins},
@@ -38,20 +38,72 @@
       \strng{authorbibnamehash}{e5b5be03b9878776e4abdad083383f64}
       \strng{authornamehash}{e5b5be03b9878776e4abdad083383f64}
       \strng{authorfullhash}{e5b5be03b9878776e4abdad083383f64}
+      \field{extraname}{1}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preparing for Submission}
+      \field{title}{Paying-to-{{Play}}: {{How Members}} of {{Congress Purchase Their Seat At}} the {{Table}}}
+    \endentry
+    \entry{jenkinsb}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{fullhash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{bibnamehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{authorbibnamehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{authornamehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{authorfullhash}{e5b5be03b9878776e4abdad083383f64}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SocArXiv}
-      \field{month}{4}
       \field{title}{Transparency or {{Deception}}? {{How Rejecting PAC Contributions Affects Contribution Patterns}}}
-      \field{year}{2020}
-      \field{dateera}{ce}
       \verb{doi}
       \verb 10.31235/osf.io/cf3jn
       \endverb
+    \endentry
+    \entry{jenkinse}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7db60853f3bf17c51a2adcf0e37ddc07}{%
+           family={Landgrave},
+           familyi={L\bibinitperiod},
+           given={Michelangelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{fullhash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{bibnamehash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{authorbibnamehash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{authornamehash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{authorfullhash}{c58835557e4c55fc0c0120d8806c1f01}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preparing for Submission}
+      \field{title}{Anti-{{PAC Pledges}}, {{Small}}-Dollar {{Donations}}, and {{Voter Perceptions}} of {{Candidates}}}
     \endentry
     \entry{jenkins2020}{article}{}
       \name{author}{3}{}{%
@@ -97,7 +149,7 @@
       \verb 10.30636/jbpa.32.111
       \endverb
     \endentry
-    \entry{jenkins2020b}{article}{}
+    \entry{jenkinsa}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
            family={Jenkins},
@@ -120,14 +172,11 @@
       \strng{authorfullhash}{e40b1cf05b6172a26322754a0209a615}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{4}
+      \field{journaltitle}{Under Review}
       \field{title}{Are {{Student Debtors}} a {{Subconstituency}}? {{The Effect}} of {{Student Loans}} on {{Issue Voting}}}
-      \field{year}{2020}
-      \field{dateera}{ce}
     \endentry
     \entry{meyer2019}{article}{}
       \name{author}{2}{}{%
@@ -171,7 +220,7 @@
       \verb 10.1142/S1793993319500108
       \endverb
       \verb{file}
-      \verb /Users/nick/Documents/Research/Articles/Meyer_Jenkins_2019_Interest Groups, Policy Responses to Global Shocks, and the Relative Likelihood.pdf
+      \verb /Users/nickjenkins/Documents/Research/Articles/Meyer_Jenkins_2019_Interest Groups, Policy Responses to Global Shocks, and the Relative Likelihood.pdf
       \endverb
       \keyw{⛔ No DOI found}
     \endentry
